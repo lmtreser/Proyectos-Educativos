@@ -1,0 +1,22 @@
+Proyecto "Pulsador de Potencia"
+
+1 x Filamento impresora 3D (1kg)
+1 x Estaño 60/40 100g
+1 x Placa pertinax virgen 10x10
+1 x Fuente 5 ó 12V
+1 x Rele 5 ó 12V
+
+1 x Jack mono 3.5mm
+1 x Módulo toma 220VCA 10A
+1 x Cable Interlock Tipo 8 (220VCA)
+1 x Ficha hembra Interlock Tipo 8 (montaje en gabinete)
+
+1 x LED 5mm rojo
+1 x 1N4007
+1 x BC548
+1 x PC817
+
+1 x Resistencia 1k
+1 x Resistencia 3k3
+1 x Resistencia 47k
+1 x Resistencia 1k8
