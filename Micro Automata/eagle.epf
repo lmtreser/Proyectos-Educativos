@@ -352,8 +352,8 @@ Type="Board Editor"
 Loc="379 171 978 570"
 State=0
 Number=4
-File="Z:/home/lucas/Dropbox/Trabajos/Educación/Clases/Proyectos/Pulsador de Potencia EE513/Diseño Electrónico/DRIVER 5V.brd"
-View="-1 -6.85769 51 30.7227"
+File="Z:/home/lucas/Downloads/MUBI-BOT/mubi-bot-3.brd"
+View="-7.9105 -6.37414 52.167 55.2015"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -395,7 +395,7 @@ Layer=16
 
 [Win_2]
 Type="Control Panel"
-Loc="428 168 1110 567"
+Loc="428 168 1194 567"
 State=2
 Number=0
 
