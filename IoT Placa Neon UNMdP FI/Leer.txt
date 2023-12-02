@@ -1,3 +1,0 @@
-En esta carpeta dejamos el gerber de la placa de desarrollo que utilizaremos en el curso para aquellos que deseen fabricarla. Tienen disponible la Bottom layer y la Front layer, sin embargo, en esta última solo hay un puente que puede resolverse con un cable (para aquellos que deseen hacerlo en una placa de simple faz).
-Además dejamos el esquemático del proyecto para que se guíen en el proceso de armado, que también es de utilidad para aquellos que deseen montar los componentes en una protoboard.
-Dejamos unas fotos para su orientación. Debajo de la ESP32 hay un capacitor electrolítico (10uF) que es necesario en alguna de las placas para el proceso de cargado del firmware (el positivo del capacitor va al pin EN de la ESP32 y el negativo a GND).
