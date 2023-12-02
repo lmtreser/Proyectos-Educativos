@@ -395,7 +395,7 @@ Layer=16
 
 [Win_2]
 Type="Control Panel"
-Loc="428 168 1194 567"
+Loc="379 171 978 570"
 State=2
 Number=0
 

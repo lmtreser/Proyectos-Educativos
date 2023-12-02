@@ -1746,7 +1746,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="17.78" y="27.94" size="2.54" layer="97">Módulos de entradas digitales.
+<text x="17.78" y="27.94" size="2.54" layer="97">Módulos de entrada digitales.
 Se recomienda colocar los optoacopladores sobre zócalos.
 El rótulo se puede editar desde el menu EDIT &gt;&gt; GLOBAL  ATTRIBUTES.</text>
 </plain>
