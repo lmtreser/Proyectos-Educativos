@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="420mm"
+   height="297mm"
+   viewBox="0 0 420 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Robotec Pista.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <style
+     id="style3576">
+.measure-arrow
+{
+}
+.measure-label
+{
+
+}
+.measure-line
+{
+}</style>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.29312985"
+     inkscape:cx="1147.9554"
+     inkscape:cy="660.11702"
+     inkscape:window-width="1366"
+     inkscape:window-height="698"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="measure_segments"
+       linked_items=""
+       id="path-effect3574"
+       is_visible="true"
+       lpeversion="1"
+       unit="mm"
+       orientation="horizontal"
+       coloropacity="#000000ff"
+       fontbutton="Sans 10"
+       precision="2"
+       fix_overlaps="0"
+       position="5"
+       text_top_bottom="0"
+       helpline_distance="0"
+       helpline_overlap="2"
+       line_width="0.25"
+       scale="1"
+       format="{measure}{unit}"
+       blacklist=""
+       active_projection="false"
+       whitelist="false"
+       showindex="false"
+       arrows_outside="false"
+       flip_side="false"
+       scale_sensitive="true"
+       local_locale="true"
+       rotate_anotation="true"
+       hide_back="true"
+       hide_arrows="false"
+       smallx100="false"
+       distance_projection="20"
+       angle_projection="0"
+       avoid_overlapping="true"
+       onbbox="false"
+       bboxonly="false"
+       centers="false"
+       maxmin="false"
+       helpdata="&lt;b&gt;&lt;big&gt;General&lt;/big&gt;&lt;/b&gt; Mostrar y colocar líneas de dimensión y etiquetas  &lt;b&gt;&lt;big&gt;Proyección&lt;/big&gt;&lt;/b&gt; Mostrar una línea com medidas basadas en los elementos seleccionados  &lt;b&gt;&lt;big&gt;Opciones&lt;/big&gt;&lt;/b&gt; Opciones de color, precisión, formato de etiquetas y presentación  &lt;b&gt;&lt;big&gt;Consejos&lt;/big&gt;&lt;/b&gt; &lt;b&gt;&lt;i&gt;Estilo personalizado:&lt;/i&gt;&lt;/b&gt; Para personalizar los estilos con más detalle, utilice el editor XML para localizar la clase o el ID, luego utilice el diálogo Estilo para aplicar un estilo nuevo. &lt;b&gt;&lt;i&gt;Listas negras:&lt;/i&gt;&lt;/b&gt; permiten ocultar algunos segmentos o pasos de proyección. &lt;b&gt;&lt;i&gt;Varios LPEs de medida:&lt;/i&gt;&lt;/b&gt; Usado junto a las listas negras, permite tener etiquetas y medidas con distintas orientaciones o proyecciones adicionales en el mismo objeto. &lt;b&gt;&lt;i&gt;Fijar predeterminados:&lt;/i&gt;&lt;/b&gt; Se pueden fijar valores predeterminado para cada LPE, en la parte inferior." />
+    <linearGradient
+       id="linearGradient2821"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2819" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+       id="rect299"
+       width="273.95554"
+       height="20"
+       x="-285.98999"
+       y="100.39413"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+       id="rect299-6"
+       width="65.077423"
+       height="20"
+       x="-75.198593"
+       y="-130.84761"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+       id="rect299-6-7"
+       width="65.105957"
+       height="20"
+       x="-409.79269"
+       y="-130.84761"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+       id="rect299-6-7-5"
+       width="128.4344"
+       height="20"
+       x="-274.13412"
+       y="-130.84761"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+       id="rect299-3"
+       width="273.95554"
+       height="20"
+       x="-285.67484"
+       y="299.32852"
+       transform="rotate(-90)" />
+  </g>
+</svg>
