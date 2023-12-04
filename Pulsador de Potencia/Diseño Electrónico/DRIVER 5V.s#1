@@ -20726,7 +20726,7 @@ Grid 5.08 mm&lt;p&gt;
 <attribute name="VALUE" x="175.26" y="93.98" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="176.53" y="88.011" size="1.778" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="256.54" y="7.62" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="254" y="5.08" smashed="yes"/>
 <instance part="FRAME1" gate="G$1" x="2.54" y="2.54" smashed="yes">
 <attribute name="DRAWING_NAME" x="161.29" y="13.97" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="161.29" y="8.89" size="2.286" layer="94" font="vector"/>
