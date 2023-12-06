@@ -1,0 +1,21 @@
+Partlist exported from C:/users/lucas/Documents/eagle/Proyectos/Micro Automata/ma_esquema.sch at 6/12/2023 13:21:12
+
+Qty Value        Device            Package  Parts                                                Description             
+4   10k          RESISTOR-EU0204/7 0204/7   R2, R5, R8, R11                                      Resistor                
+4   1N4007       1N4007            DO41-10  D5, D8, D10, D12                                     Diodo Rectificador      
+12  1k           RESISTOR-EU0204/7 0204/7   R1, R3, R4, R6, R7, R9, R10, R12, R13, R15, R17, R19 Resistor                
+4   3k3          RESISTOR-EU0204/7 0204/7   R14, R16, R18, R20                                   Resistor                
+1   =3           BORNERA_AK500/3   AK500/3  X8                                                   Bornera de tornillo     
+1   ARDUINO NANO ARDUINO_NANO      NANO     B1                                                   Arduino Nano            
+4   BC548        BC548             TO92-EBC Q1, Q2, Q3, Q4                                       Transistor NPN          
+1   EXP_1        PINHD-1X15        1X15     JP1                                                  PIN HEADER              
+1   EXP_2        PINHD-1X15        1X15     JP2                                                  PIN HEADER              
+4   G5LE         RELE_G5LE         G5LE     K1, K2, K3, K4                                       Relé Simple Inversor    
+1   INPUT        BORNERA_AK500/2   AK500/2  X1                                                   Bornera de tornillo     
+1   INPUT        BORNERA_AK500/3   AK500/3  X2                                                   Bornera de tornillo     
+8   LED          LED3MM            LED_3MM  D1, D2, D3, D4, D6, D7, D9, D11                      LEDs                    
+1   O0           BORNERA_AK500/3   AK500/3  X7                                                   Bornera de tornillo     
+1   O1           BORNERA_AK500/3   AK500/3  X5                                                   Bornera de tornillo     
+1   O2           BORNERA_AK500/3   AK500/3  X9                                                   Bornera de tornillo     
+4   PC817        PC817             DIL04    IC1, IC2, IC3, IC4                                   Optoacoplador NPN SHARP 
+1   POWER        BORNERA_AK500/2   AK500/2  X6                                                   Bornera de tornillo     
