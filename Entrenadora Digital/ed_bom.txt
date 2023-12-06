@@ -1,0 +1,14 @@
+Partlist exported from C:/users/lucas/Documents/eagle/Proyectos/Entrenadora Digital/ed_esquema.sch at 6/12/2023 13:18:04
+
+Qty Value        Device            Package  Parts                                          Description         
+5                BORNERA_AK500/2   AK500/2  X1, X2, X3, X4, X5                             Bornera de tornillo 
+8                LED3MM            LED_3MM  LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8 LEDs                
+4                SWITCH            B3F-10XX S1, S2, S3, S4                                 Switch OMRON        
+4   10k          RESISTOR-EU0204/7 0204/7   R11, R12, R13, R14                             Resistor            
+2   10k          TRIM_EU-B64W      B64W     R2, R3                                         POTENTIOMETER       
+8   330          RESISTOR-EU0204/7 0204/7   R1, R4, R5, R6, R7, R8, R9, R10                Resistor            
+1   ARDUINO NANO ARDUINO_NANO      NANO     B1                                             Arduino Nano        
+1   I2C          PINHD-1X4         1X04     JP1                                            PIN HEADER          
+1   SPI          PINHD-1X6         1X06     JP2                                            PIN HEADER          
+1   ULN2803      ULN2803A          DIL18    IC2                                            DRIVER ARRAY        
+1   VIN          JP1E              JP1      JP3                                            JUMPER              
