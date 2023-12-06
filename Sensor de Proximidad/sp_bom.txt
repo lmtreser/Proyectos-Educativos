@@ -1,0 +1,17 @@
+Partlist exported from C:/users/lucas/Documents/eagle/Proyectos/Sensor de Proximidad/sp_esquematico.sch at 6/12/2023 13:22:02
+
+Qty Value  Device            Package                  Parts          Description                          
+2   100nF  C-EU025-025X050   C025-025X050             C1, C2         CAPACITOR, European symbol           
+4   10k    RESISTOR-EU0204/7 0204/7                   R1, R2, R3, R7 Resistor                             
+1   1N4007 1N4007            DO41-10                  D2             Diodo Rectificador                   
+2   1k     RESISTOR-EU0204/7 0204/7                   R5, R6         Resistor                             
+2   1µF    CPOL-EUE2.5-6     E2,5-6                   C3, C4         POLARIZED CAPACITOR, European symbol 
+1   68     RESISTOR-EU0204/7 0204/7                   R4             Resistor                             
+1   BC548  BC548             TO92-EBC                 Q2             Transistor NPN                       
+1   BC557  BC557             TO92-EBC                 Q1             BC557                                
+1   CNY70  CNY70             DIPS254W50P254L710H600Q4 U1             CNY70 Series                         
+1   G5LE   RELE_G5LE         G5LE                     K1             Relé Simple Inversor                 
+1   LED    LED3MM            LED_3MM                  D1             LEDs                                 
+1   NE567  NE567NEN          DIL08                    IC1            NE567                                
+1   OUTPUT BORNERA_AK500/3   AK500/3                  X2             Bornera de tornillo                  
+1   POWER  BORNERA_AK500/2   AK500/2                  X1             Bornera de tornillo                  
