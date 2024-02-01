@@ -76,3 +76,17 @@ Algunas habilidades que obtendrán pueden ser:
 - Accionar de objetos.
 - Entre otras...
 
+## Proyecto tecnológico
+
+Diagrama esquemático del primer prototipo:
+
+![](./docs/diagrama_esquematico.png)
+
+Imágenes del primer prototipo (pulsador):
+
+![](./docs/diseño_pulsa.png)
+
+Para probar switchs que emulan las pulsaciones del mouse, se escribió en javascript un pequeño programa interactivo. Se puede acceder en línea en [Clicker](https://automatismos-mdq.com.ar/blog/tools/clicker/).
+
+***
+Actualmente el trabajo se encuentra en desarrollo. 
