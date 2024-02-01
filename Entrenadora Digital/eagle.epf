@@ -345,7 +345,6 @@ UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/xilinx-xc9.lbr"
 UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/xilinx-xcv.lbr"
 UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/zetex.lbr"
 UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/zilog.lbr"
-UsedLibrary="Z:/home/lucas/Documents/eagle/libraries/pcb_libs/treser_lib.lbr"
 
 [Win_1]
 Type="Control Panel"
