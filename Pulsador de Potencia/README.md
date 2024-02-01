@@ -70,8 +70,9 @@ Además, esto favorecerá a la participación, ya que debido a sus dificultades 
 
 Algunas habilidades que obtendrán pueden ser:
 
-    • Turnos.
-    • Intercambios.
-    • Sostén de la interacción.
-    • Accionar de objetos.
-    • Entre otras...
+- Turnos.
+- Intercambios.
+- Sostén de la interacción.
+- Accionar de objetos.
+- Entre otras...
+
