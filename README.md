@@ -8,13 +8,13 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 
 ## Contenidos
 
-- ``
-- ``
-- ``
-- ``
-- ``
-- ``
-- ``
+- `Analogicas 44` 
+- `Entrenadora Digital` 
+- `Internet of Things` 
+- `Micro Automata` 
+- `Pulsador de Potencia` 
+- `Robotec` 
+- `Sensor de Proximidad` 
 
 
 
