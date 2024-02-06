@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Oscilador"
+Date "2020-07-13"
+Rev ""
+Comp "ISFDyT N213"
+Comment1 "Lucas Martín Treser"
+Comment2 "Programación Domótica I"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NPN_BCE Q1
+U 1 1 5F0CAFED
+P 5450 3400
+F 0 "Q1" H 5641 3446 50  0000 L CNN
+F 1 "BC548" H 5641 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 5650 3500 50  0001 C CNN
+F 3 "~" H 5450 3400 50  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q2
+U 1 1 5F0CB7E9
+P 5900 3050
+F 0 "Q2" H 6091 3096 50  0000 L CNN
+F 1 "BC327" H 6091 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 6100 3150 50  0001 C CNN
+F 3 "~" H 5900 3050 50  0001 C CNN
+	1    5900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F0CBEF5
+P 5000 3000
+F 0 "C1" H 5115 3046 50  0000 L CNN
+F 1 "0.01µF" H 5115 2955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5038 2850 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F0CCA16
+P 5000 3750
+F 0 "R1" H 5070 3796 50  0000 L CNN
+F 1 "39k" H 5070 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 4930 3750 50  0001 C CNN
+F 3 "~" H 5000 3750 50  0001 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker LS1
+U 1 1 5F0CD158
+P 6750 3300
+F 0 "LS1" H 6920 3296 50  0000 L CNN
+F 1 "Parlante" H 6920 3205 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 6750 3100 50  0001 C CNN
+F 3 "~" H 6740 3250 50  0001 C CNN
+	1    6750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5F0CD858
+P 6250 4000
+F 0 "BT1" V 6495 4000 50  0000 C CNN
+F 1 "3V" V 6404 4000 50  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_2462_2xAA" V 6250 4060 50  0001 C CNN
+F 3 "~" V 6250 4060 50  0001 C CNN
+	1    6250 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3050 5550 3050
+Wire Wire Line
+	5550 3050 5550 3200
+Wire Wire Line
+	5250 3400 5000 3400
+Wire Wire Line
+	5000 3400 5000 3150
+Wire Wire Line
+	5000 2850 5000 2700
+Wire Wire Line
+	5000 2700 6000 2700
+Wire Wire Line
+	6000 2700 6000 2850
+Wire Wire Line
+	5000 4000 5000 3900
+Wire Wire Line
+	5000 3600 5000 3400
+Connection ~ 5000 3400
+Wire Wire Line
+	5000 4000 6000 4000
+Wire Wire Line
+	6000 3250 6000 4000
+Connection ~ 6000 4000
+Wire Wire Line
+	6000 4000 6050 4000
+Connection ~ 6000 2700
+Wire Wire Line
+	6550 3300 6500 3300
+Wire Wire Line
+	6500 3300 6500 2700
+Wire Wire Line
+	6000 2700 6500 2700
+Wire Wire Line
+	6550 3400 6500 3400
+Wire Wire Line
+	6500 3400 6500 3650
+Wire Wire Line
+	6500 4000 6450 4000
+Wire Wire Line
+	5550 3600 5550 3650
+Wire Wire Line
+	5550 3650 6500 3650
+Connection ~ 6500 3650
+Wire Wire Line
+	6500 3650 6500 4000
+$EndSCHEMATC
