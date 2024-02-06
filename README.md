@@ -9,6 +9,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 ## Contenidos
 
 - `Analogicas 44` Trabajos "Aplicaciones de Electrónica Analógica I"
+- `Diseño Asistido` Trabajos de diseño de esquemas y PCBs
 - `Entrenadora Digital` Trabajo práctico "Aplicaciones de Electrónica Digital III"
 - `Internet of Things` Trabajos relacionados al IoT
 - `Micro Automata` Trabajo práctico "Montaje de Proyectos Electrónicos III"
