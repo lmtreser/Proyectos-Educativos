@@ -8,13 +8,13 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 
 ## Contenidos
 
-- `Analogicas 44` 
-- `Entrenadora Digital` 
-- `Internet of Things` 
-- `Micro Automata` 
-- `Pulsador de Potencia` 
-- `Robotec` 
-- `Sensor de Proximidad` 
+- `Analogicas 44` Trabajos "Aplicaciones de Electrónica Analógica I"
+- `Entrenadora Digital` Trabajo práctico "Aplicaciones de Electrónica Digital III"
+- `Internet of Things` Trabajos relacionados al IoT
+- `Micro Automata` Trabajo práctico "Montaje de Proyectos Electrónicos III"
+- `Pulsador de Potencia` Feria de Ciencias, trabajo interdisciplinar, extracurricular
+- `Robotec` Competencia de Robótica intercolegial, trabajo interdisciplinar, extracurricular
+- `Sensor de Proximidad` Trabajo práctico "Montaje de Proyectos Electrónicos III"
 
 
 
