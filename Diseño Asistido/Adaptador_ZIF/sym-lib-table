@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Adaptador_ZIF-rescue")(type "KiCad")(uri "${KIPRJMOD}/Adaptador_ZIF-rescue.kicad_sym")(options "")(descr ""))
+)
