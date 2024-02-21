@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ds7clone-rescue")(type "Legacy")(uri "${KIPRJMOD}/ds7clone-rescue.lib")(options "")(descr ""))
+)
