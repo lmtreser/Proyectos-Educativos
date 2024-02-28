@@ -9,6 +9,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 ## Contenidos
 
 - `Analogicas 44` Trabajos "Aplicaciones de Electrónica Analógica I"
+- `Difusión` Charlas, eventos y difusiones en general
 - `Diseño Asistido` Trabajos de diseño de esquemas y PCBs
 - `Entrenadora Digital` Trabajo práctico "Aplicaciones de Electrónica Digital III"
 - `Internet of Things` Trabajos relacionados al IoT
@@ -16,6 +17,3 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 - `Pulsador de Potencia` Feria de Ciencias, trabajo interdisciplinar, extracurricular
 - `Robotec` Competencia de Robótica intercolegial, trabajo interdisciplinar, extracurricular
 - `Sensor de Proximidad` Trabajo práctico "Montaje de Proyectos Electrónicos III"
-
-
-
