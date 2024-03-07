@@ -9,9 +9,10 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 ## Contenidos
 
 - `Analogicas 44` Trabajos "Aplicaciones de Electrónica Analógica I"
-- `ArduProfe` Placa entrenadora para Arduino Nano
+- `ArduProfe` Placa entrenadora para Arduino Nano, por el prof. Alejandro Cordero
 - `Difusión` Charlas, eventos y difusiones en general
 - `Diseño Asistido` Trabajos de diseño de esquemas y PCBs
+- `Eduqube` PocketQube educative kit, by [Innova Space](https://www.innova-space.com)
 - `Entrenadora Digital` Trabajo práctico "Aplicaciones de Electrónica Digital III"
 - `Internet of Things` Trabajos relacionados al IoT
 - `Micro Automata` Trabajo práctico "Montaje de Proyectos Electrónicos III"
