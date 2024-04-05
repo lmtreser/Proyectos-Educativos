@@ -10670,7 +10670,6 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="66.04" y="106.68" size="2.54" layer="91">PLACA ROBOT ARDUINO NANO</text>
 </plain>
 <instances>
 <instance part="ARDUINO_NANO1" gate="G$1" x="55.245" y="36.195"/>

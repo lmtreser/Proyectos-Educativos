@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -14910,7 +14910,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="60.96" y="129.54" size="2.54" layer="91">PLACA ROBOT RASPBERRY PICO</text>
 </plain>
 <instances>
 <instance part="X1" gate="-1" x="20.32" y="121.92"/>
