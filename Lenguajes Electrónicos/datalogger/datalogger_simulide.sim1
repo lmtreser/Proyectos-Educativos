@@ -1,0 +1,17 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Dht22" CircId="Dht22-1" mainComp="false" Show_id="false" Show_Val="false" Pos="908,504" rotation="0" hflip="1" vflip="1" label="Dht22-1" idLabPos="-28,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" DHT22="DHT22" TempInc="0.5 °C" HumiInc="5 _%" />
+
+<item itemtype="DS1307" CircId="DS1307-2" mainComp="false" Show_id="false" Show_Val="false" Pos="932,728" rotation="0" hflip="1" vflip="1" label="DS1307-2" idLabPos="-20,-34" labelrot="0" valLabPos="-16,20" valLabRot="0" Time_Updtd="true" />
+
+<item itemtype="Subcircuit" CircId="Uno-3" mainComp="false" Show_id="true" Show_Val="false" Pos="680,512" rotation="90" hflip="1" vflip="1" label="Uno-3" idLabPos="-14.513,203.374" labelrot="-90" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="3_mega328-109" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="3_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="datalogger.ino.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Dht22-1-inPin" endpinid="Uno-3-2" pointList="872,500,840,500,840,552" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="DS1307-2-PinSDA" endpinid="Uno-3-A4" pointList="896,716,848,716,848,696" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="DS1307-2-PinSCL" endpinid="Uno-3-A5" pointList="896,724,856,724,856,696" />
+
+</circuit>
