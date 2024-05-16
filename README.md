@@ -15,6 +15,7 @@ La ultima versión se puede descargar desde el repositorio [en este enlace](http
 - `Eduqube` PocketQube educative kit, by [Innova Space](https://www.innova-space.com)
 - `Entrenadora Digital` Trabajo práctico "Aplicaciones de Electrónica Digital III"
 - `Internet of Things` Trabajos relacionados al IoT
+- `Lenguajes Electrónicos` Trabajos "Lenguajes Electrónicos II"
 - `Micro Automata` Trabajo práctico "Montaje de Proyectos Electrónicos III"
 - `Pulsador de Potencia` Feria de Ciencias, trabajo interdisciplinar, extracurricular
 - `Robotec` Competencia de Robótica intercolegial, trabajo interdisciplinar, extracurricular
