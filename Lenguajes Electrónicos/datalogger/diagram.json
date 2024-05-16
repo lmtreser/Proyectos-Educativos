@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "author": "Lucas Martín",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 144.6, "left": 47.4, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -18.9, "left": 292.2, "attrs": {} },
+    {
+      "type": "wokwi-ds1307",
+      "id": "rtc1",
+      "top": 4.9,
+      "left": 102.8,
+      "rotate": 270,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 99.95,
+      "left": 230.4,
+      "attrs": { "value": "10000" }
+    }
+  ],
+  "connections": [
+    [ "uno:A4.2", "rtc1:SDA", "green", [ "v0" ] ],
+    [ "uno:A5.2", "rtc1:SCL", "blue", [ "v-28.8", "h19.4" ] ],
+    [ "rtc1:GND", "uno:GND.1", "black", [ "v48", "h38.1" ] ],
+    [ "uno:5V", "rtc1:5V", "red", [ "v19.1", "h-188.2", "v-240", "h115.6" ] ],
+    [ "dht1:SDA", "uno:2", "green", [ "v28.8", "h-32.8" ] ],
+    [ "dht1:GND", "uno:GND.1", "black", [ "v38.4", "h-173.1" ] ],
+    [ "dht1:VCC", "rtc1:5V", "red", [ "v19.2", "h-172.8" ] ],
+    [ "r1:2", "dht1:VCC", "red", [ "v0", "h18" ] ],
+    [ "r1:1", "uno:2", "green", [ "v0", "h-9.6", "v19.2", "h67.2" ] ]
+  ],
+  "dependencies": {}
+}
