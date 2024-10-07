@@ -19,8 +19,8 @@
 #define MSG_BUFFER_SIZE 15
 
 //=====[Declaration and initialization of public global objects]===============
-WiFiClient espClient;
-PubSubClient client(espClient);
+static WiFiClient espClient;
+static PubSubClient client(espClient);
 
 //=====[Declaration and initialization of public global variables]=============
 String mqttDataString;
@@ -71,7 +71,7 @@ static void smartHomeMqttConnect() {
   }
 }
 
-void smartHomeMqttCallback(char* topic, byte* payload, unsigned int length) {
+static void smartHomeMqttCallback(char* topic, byte* payload, unsigned int length) {
   String message = String((char*)payload).substring(0, length);
   mqttDataString = String(topic) + ":" + message; // "topic:payload"
   mqttMessageReceived = true;
