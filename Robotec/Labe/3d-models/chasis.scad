@@ -1,7 +1,9 @@
-// Parámetros generales
+// Chasís robot educativo
+// Parámetros generales, medidas en mm
+
 chasis_largo = 100;    // Largo de la placa en mm
 chasis_ancho = 100;    // Ancho de la placa en mm
-chasis_grosor = 3;     // Grosor de la placa
+chasis_grosor = 4;     // Grosor de la placa
 radio_esquinas = 10;   // Radio de las esquinas redondeadas
 espacio_orificios = 10; // Separación de los orificios en mm
 diametro_orificio = 3; // Diámetro de los orificios
