@@ -58,9 +58,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="68.25" y2="0.635" width="0" layer="20"/>
-<wire x1="68.25" y1="0.635" x2="68.25" y2="50.155" width="0" layer="20"/>
-<wire x1="68.25" y1="50.155" x2="0" y2="49.52" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="67.615" y2="0" width="0" layer="20"/>
+<wire x1="67.615" y1="0" x2="67.615" y2="49.52" width="0" layer="20"/>
+<wire x1="67.615" y1="49.52" x2="0" y2="49.52" width="0" layer="20"/>
 <wire x1="0" y1="49.52" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="0" y2="49.53" x3="-19.685" y3="24.765" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="0" x2="67.615" y2="0" x3="33.8075" y3="-6.35" textsize="1.778" layer="1"/>
@@ -84,7 +84,6 @@
 <text x="-19.685" y="26.67" size="1.778" layer="25">INFRA2/GPIO25</text>
 <text x="-19.685" y="21.59" size="1.778" layer="25">INFRA3/GPIO26</text>
 <text x="67.945" y="21.59" size="1.778" layer="25">GPIO5</text>
-<dimension x1="22.86" y1="12.065" x2="48.26" y2="12.065" x3="35.56" y3="-3.81" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="resistor">
