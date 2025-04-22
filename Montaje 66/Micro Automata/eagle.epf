@@ -345,14 +345,9 @@ UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/xilinx-xc9.lbr"
 UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/xilinx-xcv.lbr"
 UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/zetex.lbr"
 UsedLibrary="Z:/home/lucas/Software/win/eagle720/lbr/zilog.lbr"
+UsedLibrary="C:/users/lucas/Documents/eagle/libraries/treser_lib.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="336 143 935 542"
-State=2
-Number=0
-
-[Win_2]
 Type="Board Editor"
 Loc="379 171 978 570"
 State=0
@@ -398,7 +393,13 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
+[Win_2]
+Type="Control Panel"
+Loc="379 171 978 570"
+State=2
+Number=0
+
 [Desktop]
-Screen="1280 720"
+Screen="1366 768"
 Window="Win_1"
 Window="Win_2"
