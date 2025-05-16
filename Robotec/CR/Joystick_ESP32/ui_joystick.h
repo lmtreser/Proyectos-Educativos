@@ -41,6 +41,12 @@ String getHTML() {
         margin: 5px;
       }
 
+      button:active, button.pressed {
+        background: #b3d1ff;
+        box-shadow: 0 0 0 2px #1976d2;
+        color: #1976d2;
+      }
+
       .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -80,30 +86,46 @@ String getHTML() {
     <div class="layout">
       <div class="grid">
         <div></div>
-        <button onclick="enviar('adelante')">&#x2B06;</button>
+        <button onpointerdown="enviar('adelante')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x2B06;</button>
         <div></div>
 
-        <button onclick="enviar('izquierda')">&#x2B05;</button>
-        <button onclick="enviar('stop')">&#x23F9;</button>
-        <button onclick="enviar('derecha')">&#x27A1;</button>
+        <button onpointerdown="enviar('izquierda')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x2B05;</button>
+        <button onpointerdown="enviar('stop')">&#x23F9;</button>
+        <button onpointerdown="enviar('derecha')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x27A1;</button>
 
         <div></div>
-        <button onclick="enviar('atras')">&#x2B07;</button>
+        <button onpointerdown="enviar('atras')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x2B07;</button>
         <div></div>
       </div>
 
       <div class="extras">
-        <button onclick="enviar('btn1')">B1</button>
-        <button onclick="enviar('btn2')">B2</button>
-        <button onclick="enviar('btn3')">B3</button>
-        <button onclick="enviar('btn4')">B4</button>
+        <button onpointerdown="enviar('btn1')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B1</button>
+        <button onpointerdown="enviar('btn2')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B2</button>
+        <button onpointerdown="enviar('btn3')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B3</button>
+        <button onpointerdown="enviar('btn4')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B4</button>
       </div>
     </div>
 
     <script>
       function enviar(comando) {
+        console.log(comando);
         fetch(`/cmd?dir=${comando}`);
       }
+      // Retroalimentación visual para botones presionados
+      document.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('pointerdown', function() {
+          btn.classList.add('pressed');
+        });
+        btn.addEventListener('pointerup', function() {
+          btn.classList.remove('pressed');
+        });
+        btn.addEventListener('pointerleave', function() {
+          btn.classList.remove('pressed');
+        });
+        btn.addEventListener('pointercancel', function() {
+          btn.classList.remove('pressed');
+        });
+      });
     </script>
   </body>
   
