@@ -23,22 +23,28 @@ String getHTML() {
         grid-template-columns: 1fr;
         gap: 32px;
         align-items: center;
+        width: 100vw;
+        max-width: 100vw;
+        padding: 0 10vw;
+        box-sizing: border-box;
       }
 
       @media (orientation: landscape) {
         .layout {
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr;
+          padding: 0 5vw;
         }
       }
 
       button {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         border-width: 0px;
         border-radius: 13px;
-        font-size: 20px;
-        margin: 5px;
+        font-size: 28px;
+        margin: 8px;
+        transition: background 0.2s, box-shadow 0.2s, color 0.2s;
       }
 
       button:active, button.pressed {
@@ -51,25 +57,29 @@ String getHTML() {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 5px;
+        gap: 8px;
         justify-items: center;
         align-items: center;
         background: #fff;
-        padding: 16px;
+        padding: 8px 0;
         border-radius: 12px;
         box-shadow: 0 2px 8px #0001;
+        width: 100%;
+        max-width: 350px;
       }
 
       .extras {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap: 10px;
+        gap: 12px;
         justify-items: center;
         background: #fff;
-        padding: 16px;
+        padding: 8px 0;
         border-radius: 12px;
         box-shadow: 0 2px 8px #0001;
+        width: 100%;
+        max-width: 350px;
       }
 
       @media (orientation: landscape) {
