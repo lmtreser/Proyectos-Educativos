@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background: #f8f8f8;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+        align-items: center;
+      }
+
+      @media (orientation: landscape) {
+        .layout {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr;
+        }
+      }
+
+      button {
+        width: 50px;
+        height: 50px;
+        border-width: 0px;
+        border-radius: 13px;
+        font-size: 20px;
+        margin: 5px;
+      }
+
+      button:active, button.pressed {
+        background: #b3d1ff;
+        box-shadow: 0 0 0 2px #1976d2;
+        color: #1976d2;
+      }
+
+      .joystick-container {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px #0001;
+        display: grid;
+        place-items: center;
+      }
+
+      .joystick {
+        width: 60px;
+        height: 60px;
+        background: #1976d2;
+        border-radius: 50%;
+        position: absolute;
+        cursor: pointer;
+        touch-action: none;
+      }
+
+      .extras {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        justify-items: center;
+        background: #fff;
+        padding: 16px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px #0001;
+      }
+
+      @media (orientation: landscape) {
+        .extras {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2 style="text-align:center;">Joystick ESP32</h2>
+    <div class="layout">
+      <div class="joystick-container">
+        <div class="joystick" id="joystick"></div>
+      </div>
+
+      <div class="extras">
+        <button onpointerdown="enviar('btn1')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B1</button>
+        <button onpointerdown="enviar('btn2')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B2</button>
+        <button onpointerdown="enviar('btn3')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B3</button>
+        <button onpointerdown="enviar('btn4')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B4</button>
+      </div>
+    </div>
+
+    <script>
+      const joystick = document.getElementById('joystick');
+      const container = document.querySelector('.joystick-container');
+      const maxDistance = 40; // Límite de movimiento del joystick
+      let activeDirection = null;
+      let pointerActive = false;
+
+      function handleMove(clientX, clientY) {
+        const rect = container.getBoundingClientRect();
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const x = clientX - rect.left - centerX;
+        const y = clientY - rect.top - centerY;
+        const distance = Math.sqrt(x * x + y * y);
+        const angle = Math.atan2(y, x);
+
+        // Limitar el movimiento del joystick
+        const limitedDistance = Math.min(distance, maxDistance);
+        const limitedX = limitedDistance * Math.cos(angle);
+        const limitedY = limitedDistance * Math.sin(angle);
+
+        joystick.style.transform = `translate(${limitedX}px, ${limitedY}px)`;
+
+        // Determinar dirección (ángulos en radianes)
+        let direction = null;
+        if (distance > 20) { // Umbral para evitar cambios pequeños
+          if (angle >= -Math.PI/4 && angle < Math.PI/4) {
+            direction = 'derecha';
+          } else if (angle >= Math.PI/4 && angle < 3*Math.PI/4) {
+            direction = 'adelante';
+          } else if (angle >= -3*Math.PI/4 && angle < -Math.PI/4) {
+            direction = 'atras';
+          } else {
+            direction = 'izquierda';
+          }
+        }
+
+        // Enviar comando solo si la dirección cambió
+        if (direction !== activeDirection) {
+          activeDirection = direction;
+          enviar(direction || 'stop');
+        }
+      }
+
+      joystick.addEventListener('pointerdown', (e) => {
+        e.preventDefault();
+        pointerActive = true;
+        joystick.setPointerCapture(e.pointerId);
+        handleMove(e.clientX, e.clientY);
+      });
+
+      joystick.addEventListener('pointermove', (e) => {
+        if (pointerActive) {
+          handleMove(e.clientX, e.clientY);
+        }
+      });
+
+      joystick.addEventListener('pointerup', () => {
+        pointerActive = false;
+        joystick.style.transform = 'translate(0, 0)';
+        activeDirection = null;
+        enviar('stop');
+      });
+
+      joystick.addEventListener('pointerleave', () => {
+        pointerActive = false;
+        joystick.style.transform = 'translate(0, 0)';
+        activeDirection = null;
+        enviar('stop');
+      });
+
+      function enviar(comando) {
+        if (comando) {
+          console.log(comando);
+          fetch(`/cmd?dir=${comando}`);
+        }
+      }
+
+      // Retroalimentación visual para botones auxiliares
+      document.querySelectorAll('.extras button').forEach(btn => {
+        btn.addEventListener('pointerdown', function() {
+          btn.classList.add('pressed');
+        });
+        btn.addEventListener('pointerup', function() {
+          btn.classList.remove('pressed');
+        });
+        btn.addEventListener('pointerleave', function() {
+          btn.classList.remove('pressed');
+        });
+      });
+    </script>
+  </body>
+</html>
