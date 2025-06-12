@@ -1,7 +1,16 @@
 #include <WiFi.h>
 #include <WebServer.h>
-#include "ui_joystick.h"
 #include "const.h"
+
+//#define DIGITAL
+#define ANALOGICO
+
+#ifdef DIGITAL
+  #include "ui_joystick.h"
+#endif
+#ifdef ANALOGICO
+  #include "ui_analogico.h"
+#endif
 
 // Crear servidor en el puerto 80
 WebServer server(80);

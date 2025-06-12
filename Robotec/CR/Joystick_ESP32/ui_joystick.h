@@ -82,6 +82,32 @@ String getHTML() {
         max-width: 350px;
       }
 
+      /* CSS para disposición en cruz de los botones extras */
+      .extras.cruz {
+        display: grid;
+        grid-template-areas:
+          ". arriba ."
+          "izquierda . derecha"
+          ". abajo .";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 12px;
+        justify-items: center;
+        align-items: center;
+        background: #fff;
+        padding: 8px 0;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px #0001;
+        width: 100%;
+        max-width: 350px;
+      }
+
+      .btn-ps {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+      }
+
       @media (orientation: landscape) {
         .extras {
           grid-template-columns: repeat(2, 1fr);
@@ -108,11 +134,11 @@ String getHTML() {
         <div></div>
       </div>
 
-      <div class="extras">
-        <button onpointerdown="enviar('btn1')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B1</button>
-        <button onpointerdown="enviar('btn2')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B2</button>
-        <button onpointerdown="enviar('btn3')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B3</button>
-        <button onpointerdown="enviar('btn4')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">B4</button>
+      <div class="extras cruz">
+        <button class="btn-ps" style="grid-area: arriba;" onpointerdown="enviar('btn1')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x25B3;</button> <!-- Triángulo -->
+        <button class="btn-ps" style="grid-area: izquierda;" onpointerdown="enviar('btn2')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x25A0;</button> <!-- Cuadrado -->
+        <button class="btn-ps" style="grid-area: derecha;" onpointerdown="enviar('btn3')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x25CF;</button> <!-- Círculo -->
+        <button class="btn-ps" style="grid-area: abajo;" onpointerdown="enviar('btn4')" onpointerup="enviar('stop')" onpointerleave="enviar('stop')">&#x2716;</button> <!-- Cruz -->
       </div>
     </div>
 
