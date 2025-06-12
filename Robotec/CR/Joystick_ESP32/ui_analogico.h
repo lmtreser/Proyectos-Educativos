@@ -15,20 +15,26 @@ String getHTML() {
         display: grid;
         place-items: center;
         background: #f8f8f8;
+        overflow: hidden; /* Evita scroll */
       }
 
       .layout {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 64px;
+        gap: 32px; /* Menor separación */
         align-items: center;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 0 2vw;
       }
 
       @media (orientation: landscape) {
         .layout {
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr;
-          gap: 64px;
+          gap: 32px;
+          height: 100vh;
+          padding: 0 2vw;
         }
       }
 
@@ -49,8 +55,8 @@ String getHTML() {
 
       .joystick-container {
         position: relative;
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         background: #fff;
         border-radius: 50%;
         box-shadow: 0 2px 8px #0001;
@@ -59,8 +65,8 @@ String getHTML() {
       }
 
       .joystick {
-        width: 60px;
-        height: 60px;
+        width: 48px;
+        height: 48px;
         background: #1976d2;
         border-radius: 50%;
         position: absolute;
@@ -213,6 +219,7 @@ String getHTML() {
     </script>
   </body>
 </html>
+
 
   )rawliteral";
 }
