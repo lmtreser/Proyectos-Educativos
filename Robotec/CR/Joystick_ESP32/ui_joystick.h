@@ -118,7 +118,6 @@ String getHTML() {
   </head>
 
   <body>
-    <h2 style="text-align:center;">Joystick ESP32</h2>
     <div class="layout">
       <div class="grid">
         <div></div>
@@ -163,8 +162,25 @@ String getHTML() {
         });
       });
     </script>
+    <script>
+      // Forzar pantalla completa al primer toque en pantalla táctil
+      function requestFullscreen() {
+        const el = document.documentElement;
+        if (el.requestFullscreen) {
+          el.requestFullscreen();
+        } else if (el.webkitRequestFullscreen) {
+          el.webkitRequestFullscreen();
+        } else if (el.msRequestFullscreen) {
+          el.msRequestFullscreen();
+        }
+      }
+      document.addEventListener('touchstart', function fullscreenOnce() {
+        requestFullscreen();
+        document.removeEventListener('touchstart', fullscreenOnce);
+      });
+  </script>
   </body>
-  
+
 </html>
 
   )rawliteral";
