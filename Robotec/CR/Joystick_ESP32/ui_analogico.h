@@ -21,7 +21,7 @@ String getHTML() {
       .layout {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 32px; /* Menor separación */
+        gap: 120px; /* Menor separación */
         align-items: center;
         height: 100vh;
         box-sizing: border-box;
@@ -32,7 +32,7 @@ String getHTML() {
         .layout {
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr;
-          gap: 32px;
+          gap: 120px;
           height: 100vh;
           padding: 0 2vw;
         }
@@ -76,8 +76,12 @@ String getHTML() {
 
       .extras {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+          ". btn1 ."
+          "btn2 . btn3"
+          ". btn4 .";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         gap: 10px;
         justify-items: center;
         background: #fff;
@@ -85,6 +89,11 @@ String getHTML() {
         border-radius: 12px;
         box-shadow: 0 2px 8px #0001;
       }
+
+      .extras button:nth-child(1) { grid-area: btn1; }
+      .extras button:nth-child(2) { grid-area: btn2; }
+      .extras button:nth-child(3) { grid-area: btn3; }
+      .extras button:nth-child(4) { grid-area: btn4; }
 
       @media (orientation: landscape) {
         .extras {
@@ -200,28 +209,9 @@ String getHTML() {
         });
       });
     </script>
-    <script>
-      // Forzar pantalla completa al primer toque en pantalla táctil
-      function requestFullscreen() {
-        const el = document.documentElement;
-        if (el.requestFullscreen) {
-          el.requestFullscreen();
-        } else if (el.webkitRequestFullscreen) {
-          el.webkitRequestFullscreen();
-        } else if (el.msRequestFullscreen) {
-          el.msRequestFullscreen();
-        }
-      }
-      document.addEventListener('touchstart', function fullscreenOnce() {
-        requestFullscreen();
-        document.removeEventListener('touchstart', fullscreenOnce);
-      });
-    </script>
   </body>
 </html>
 
-
   )rawliteral";
 }
-
 #endif
