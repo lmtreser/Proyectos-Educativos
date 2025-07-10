@@ -522,14 +522,14 @@
             "name": "",
             "normal": [
                 -0.7086684402812341,
-                0.032516948525869296,
+                0.032516948525869144,
                 -0.704596580839805,
-                0.016593615542882332
+                0.016593615542882304
             ],
             "origin": [
                 -180.63575865080196,
                 150.69556245023603,
-                15.305233442211499
+                15.305233442211497
             ],
             "path": "motor.step",
             "type": "step"
@@ -647,6 +647,26 @@
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
+        "b4d33e40-0e3a-4880-8918-7b276a330756": {
+            "anchors": {},
+            "construction": false,
+            "group": "7c45f56e-71b0-428a-88cf-a1c2d1d61631",
+            "include_in_solid_model": false,
+            "name": "",
+            "normal": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "origin": [
+                -44.358089447021484,
+                125.52394580841064,
+                0.0
+            ],
+            "path": "HC-SR04.stp",
+            "type": "step"
+        },
         "ce7ff1f4-194c-4f4b-bca8-f95676bf0b92": {
             "construction": true,
             "group": "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf",
@@ -686,7 +706,7 @@
         "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf": {
             "active_wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2",
             "body": null,
-            "index": 3,
+            "index": 4,
             "name": "Board Nano",
             "type": "sketch"
         },
@@ -700,8 +720,15 @@
                 },
                 "name": "Body"
             },
-            "index": 2,
+            "index": 3,
             "name": "Chassis",
+            "type": "sketch"
+        },
+        "7c45f56e-71b0-428a-88cf-a1c2d1d61631": {
+            "active_wrkpl": "00000000-0000-0000-0000-000000000000",
+            "body": null,
+            "index": 2,
+            "name": "Ultrasonic",
             "type": "sketch"
         },
         "a2e3740c-65df-4987-9b56-22eb68f623b4": {
@@ -738,7 +765,7 @@
                 0.0,
                 1.0
             ],
-            "index": 4,
+            "index": 5,
             "mode": "single",
             "name": "Extrude 1",
             "operation": "union",
