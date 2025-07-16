@@ -1,7 +1,7 @@
 {
     "workspace_views": {
         "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 319.5490417480469,
+            "cam_distance": 162.38818359375,
             "cam_quat": [
                 0.0,
                 0.0,
@@ -9,9 +9,9 @@
                 -1.0
             ],
             "center": [
-                -7.066032409667969,
-                -5.505197048187256,
-                1.2493575923144817e-05
+                10.066608428955078,
+                2.015604019165039,
+                -3.14321368932724e-09
             ],
             "curvature_comb_scale": 0.0,
             "document": {
@@ -37,10 +37,13 @@
                         "visible": true
                     }
                 },
-                "current_group": "ad06be00-8bb6-41bb-b178-85af9e2700cf",
+                "current_group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
                 "entity_views": {},
                 "group_views": {
                     "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf": {
+                        "visible": true
+                    },
+                    "57bc874c-a697-430b-b8cb-07280bd9cac2": {
                         "visible": false
                     },
                     "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
@@ -56,7 +59,7 @@
                         "visible": true
                     },
                     "faed68bf-2562-44df-8b43-c9bf6d334afb": {
-                        "visible": true
+                        "visible": false
                     }
                 },
                 "show_construction_entities_from_previous_groups": false
