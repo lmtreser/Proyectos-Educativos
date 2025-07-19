@@ -1,17 +1,17 @@
 {
     "workspace_views": {
         "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 198.8847198486328,
+            "cam_distance": 189.056884765625,
             "cam_quat": [
-                0.12999653816223145,
-                0.025556908920407295,
-                -0.01642761006951332,
-                0.9910489320755005
+                0.2746407687664032,
+                0.02238701842725277,
+                0.06090126559138298,
+                0.9593551754951477
             ],
             "center": [
-                55.03089904785156,
-                -46.59880065917969,
-                5.674081648976426e-07
+                6.804322242736816,
+                -24.008281707763672,
+                -5.121156692504883
             ],
             "curvature_comb_scale": 0.0,
             "document": {
@@ -37,14 +37,14 @@
                         "visible": true
                     }
                 },
-                "current_group": "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf",
+                "current_group": "ad06be00-8bb6-41bb-b178-85af9e2700cf",
                 "entity_views": {},
                 "group_views": {
                     "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf": {
-                        "visible": false
+                        "visible": true
                     },
                     "57bc874c-a697-430b-b8cb-07280bd9cac2": {
-                        "visible": false
+                        "visible": true
                     },
                     "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
                         "visible": true
@@ -59,7 +59,7 @@
                         "visible": true
                     },
                     "faed68bf-2562-44df-8b43-c9bf6d334afb": {
-                        "visible": false
+                        "visible": true
                     }
                 },
                 "show_construction_entities_from_previous_groups": false
