@@ -5,14 +5,218 @@
 	(uuid "a0797d60-6025-4c6e-a7a0-fe437631a5ca")
 	(paper "A4")
 	(title_block
-		(title "MUBI-BOT NANO v4")
+		(title "MUBI-BOT NANO")
 		(date "2025-07-16")
-		(rev "1.0")
+		(rev "4.0")
 		(company "E.E.S.T. N.°5 \"AMANCIO WILLIAMS\"")
 		(comment 1 "Diseño Original: Prof. Ing. Fermín Oyarburo")
 		(comment 2 "Actualización: Prof. T.S. Lucas Martín Treser")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mubi-bot-3-eagle-import:+5V"
 			(power)
 			(exclude_from_sim no)
@@ -121,289 +325,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mubi-bot-3-eagle-import:9450-1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -8.255 -1.905 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -5.715 2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "mubi-bot-3:9450-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MARQUARDT SWITCH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "9450-1_1_0"
-				(polyline
-					(pts
-						(xy -6.35 1.905) (xy -6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 1.905) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -6.35 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy -4.445 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.905) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.905 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.175) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "O"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "P"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2921,16 +2842,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 77.47 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0887f671-6213-486c-9e4a-0c5a6d992070")
-	)
-	(wire
-		(pts
 			(xy 99.06 60.96) (xy 106.68 60.96)
 		)
 		(stroke
@@ -3021,6 +2932,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 129.54) (xy 58.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aecd401-751f-4dd3-af07-786649e43384")
+	)
+	(wire
+		(pts
 			(xy 180.34 129.54) (xy 173.99 129.54)
 		)
 		(stroke
@@ -3048,16 +2969,6 @@
 			(type solid)
 		)
 		(uuid "278170bb-c84e-493a-8a4d-1935d358b9dd")
-	)
-	(wire
-		(pts
-			(xy 52.705 123.19) (xy 52.705 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2b1ab823-12ca-46f7-b419-4bd3c1db78e5")
 	)
 	(wire
 		(pts
@@ -3161,6 +3072,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 124.46) (xy 57.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41af3449-5dd7-41e4-9c89-f7998631c54c")
+	)
+	(wire
+		(pts
 			(xy 77.47 119.38) (xy 69.85 119.38)
 		)
 		(stroke
@@ -3221,6 +3142,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 121.92) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d22839c-a402-411d-a068-65149286b754")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f19c398-2a06-4974-8783-90c867db27a4")
+	)
+	(wire
+		(pts
 			(xy 180.34 124.46) (xy 173.99 124.46)
 		)
 		(stroke
@@ -3261,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 104.14) (xy 72.39 104.14)
+			(xy 69.85 106.68) (xy 77.47 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -3301,16 +3242,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 133.35) (xy 52.705 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6db414b8-fe34-4d85-b0f4-388ac0b5249a")
-	)
-	(wire
-		(pts
 			(xy 200.66 49.53) (xy 200.66 60.96)
 		)
 		(stroke
@@ -3318,6 +3249,16 @@
 			(type solid)
 		)
 		(uuid "73609b48-0f85-4824-a16d-af1db5d03736")
+	)
+	(wire
+		(pts
+			(xy 58.42 129.54) (xy 58.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d406ae-bee1-4577-9502-45530e5f26c3")
 	)
 	(wire
 		(pts
@@ -3408,16 +3349,6 @@
 			(type solid)
 		)
 		(uuid "9fd6097a-80cb-4d6b-9588-ea544005ae21")
-	)
-	(wire
-		(pts
-			(xy 72.39 104.14) (xy 72.39 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a016a334-9189-47cd-b286-33448312ff6b")
 	)
 	(wire
 		(pts
@@ -3578,16 +3509,6 @@
 			(type solid)
 		)
 		(uuid "c80c2711-8538-4391-9efb-efa6c754eb3d")
-	)
-	(wire
-		(pts
-			(xy 77.47 127) (xy 62.865 127)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c86742f9-f489-45e1-a7b7-4e92aa979644")
 	)
 	(wire
 		(pts
@@ -3818,6 +3739,16 @@
 			(justify right bottom)
 		)
 		(uuid "06128e46-58a1-4dab-aa1c-086bae686a98")
+	)
+	(label "GND"
+		(at 69.85 106.68 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aa6090a-9709-4c78-957a-58a13b734e24")
 	)
 	(label "INFRA1"
 		(at 69.85 111.76 0)
@@ -5750,6 +5681,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 52.07 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65427d84-0a3c-42b4-9bc8-85be68a55d7b")
+		(property "Reference" "J1"
+			(at 50.292 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SEL"
+			(at 50.8 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "faa8a4c5-0376-476b-a612-b5a3dec2599a")
+		)
+		(pin "1"
+			(uuid "08f591d4-2e37-4e71-b072-625a984ba5d8")
+		)
+		(pin "3"
+			(uuid "70f0c004-ad6b-4653-a6f8-c21a94364864")
+		)
+		(instances
+			(project ""
+				(path "/a0797d60-6025-4c6e-a7a0-fe437631a5ca"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mubi-bot-3-eagle-import:GND")
 		(at 173.99 116.84 270)
 		(unit 1)
@@ -6043,7 +6044,7 @@
 	)
 	(symbol
 		(lib_id "mubi-bot-3-eagle-import:GND")
-		(at 52.705 135.89 0)
+		(at 58.42 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6051,7 +6052,7 @@
 		(dnp no)
 		(uuid "8ae34499-0cbf-43a1-bc92-eb933898c746")
 		(property "Reference" "#GND8"
-			(at 52.705 135.89 0)
+			(at 58.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.165 138.43 0)
+			(at 55.88 137.16 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6069,7 +6070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 135.89 0)
+			(at 58.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +6079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 135.89 0)
+			(at 58.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.705 135.89 0)
+			(at 58.42 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6110,7 @@
 	)
 	(symbol
 		(lib_id "mubi-bot-3-eagle-import:+5V")
-		(at 52.705 120.65 0)
+		(at 58.42 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6117,7 +6118,7 @@
 		(dnp no)
 		(uuid "90231c1e-b974-4e81-91d2-28d4205cefb2")
 		(property "Reference" "#SUPPLY3"
-			(at 52.705 120.65 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6127,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 117.475 0)
+			(at 56.515 116.205 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6135,7 +6136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 120.65 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 120.65 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.705 120.65 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,72 +6429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mubi-bot-3-eagle-import:GND")
-		(at 58.42 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aaa59a6a-6913-4791-97e4-54ba0cb81b22")
-		(property "Reference" "#GND4"
-			(at 58.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 101.6 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ea703b8-9b21-44c7-96ff-aea0b502f505")
-		)
-		(instances
-			(project ""
-				(path "/a0797d60-6025-4c6e-a7a0-fe437631a5ca"
-					(reference "#GND4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mubi-bot-3-eagle-import:AK500/10-H")
 		(at 69.85 45.72 0)
 		(unit 1)
@@ -6714,78 +6649,6 @@
 			(project ""
 				(path "/a0797d60-6025-4c6e-a7a0-fe437631a5ca"
 					(reference "#SUPPLY2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mubi-bot-3-eagle-import:9450-1")
-		(at 57.785 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cef29d00-e11f-4344-89fd-e73a8cf9ea40")
-		(property "Reference" "S1"
-			(at 48.26 123.825 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "9450-1"
-			(at 52.07 126.365 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "mubi-bot-3:9450-1"
-			(at 57.785 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.785 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "699fe6cd-07e2-4f68-a7d9-8ffe751de9ef")
-		)
-		(pin "2"
-			(uuid "2ce4683c-ff97-450b-b6d1-5c9c255f9f4e")
-		)
-		(pin "3"
-			(uuid "e8b9b89c-f3a4-46bb-b4eb-f6da115ee40b")
-		)
-		(instances
-			(project ""
-				(path "/a0797d60-6025-4c6e-a7a0-fe437631a5ca"
-					(reference "S1")
 					(unit 1)
 				)
 			)
