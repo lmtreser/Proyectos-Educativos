@@ -1,17 +1,17 @@
 {
     "workspace_views": {
         "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 189.056884765625,
+            "cam_distance": 132.6197052001953,
             "cam_quat": [
-                0.2746407687664032,
-                0.02238701842725277,
-                0.06090126559138298,
-                0.9593551754951477
+                0.9016267657279968,
+                0.1705460399389267,
+                -0.24734199047088623,
+                -0.3111356198787689
             ],
             "center": [
-                6.804322242736816,
-                -24.008281707763672,
-                -5.121156692504883
+                -6.044877052307129,
+                6.641048908233643,
+                -15.848658561706543
             ],
             "curvature_comb_scale": 0.0,
             "document": {
@@ -35,21 +35,53 @@
                         "expanded": true,
                         "solid_model_visible": true,
                         "visible": true
+                    },
+                    "faf373ca-d544-49fa-9efb-20514b941b79": {
+                        "expanded": false,
+                        "solid_model_visible": true,
+                        "visible": false
                     }
                 },
-                "current_group": "ad06be00-8bb6-41bb-b178-85af9e2700cf",
+                "current_group": "6df70568-4520-4c1b-97d1-9d02a3ad2bfb",
                 "entity_views": {},
                 "group_views": {
+                    "0a8cfeed-bb21-4874-a2df-1f0c81dd9a50": {
+                        "visible": false
+                    },
+                    "124916d2-fe8c-40e1-8ca3-7caec0d2ebfc": {
+                        "visible": false
+                    },
+                    "138d94ee-2e6a-42a5-9041-d007d9bc2762": {
+                        "visible": false
+                    },
+                    "1cfa0a0a-187c-4501-bcb2-3d4c2cf654b5": {
+                        "visible": false
+                    },
+                    "38a4fc7f-3e4d-41e8-abff-68991b2af339": {
+                        "visible": false
+                    },
+                    "51f109d2-6786-4fe9-935f-f2ad4187c807": {
+                        "visible": false
+                    },
+                    "5242e1ac-2888-4496-bcbe-e990402c6be3": {
+                        "visible": false
+                    },
                     "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf": {
-                        "visible": true
+                        "visible": false
                     },
                     "57bc874c-a697-430b-b8cb-07280bd9cac2": {
-                        "visible": true
+                        "visible": false
+                    },
+                    "68904349-0ef6-42bb-9877-501f855c05a1": {
+                        "visible": false
                     },
                     "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
                         "visible": true
                     },
                     "7c45f56e-71b0-428a-88cf-a1c2d1d61631": {
+                        "visible": false
+                    },
+                    "7fa996ff-78fc-41a2-bcf6-e12010762d98": {
                         "visible": false
                     },
                     "a2e3740c-65df-4987-9b56-22eb68f623b4": {
@@ -58,8 +90,20 @@
                     "ad06be00-8bb6-41bb-b178-85af9e2700cf": {
                         "visible": true
                     },
+                    "ceeb953b-f495-46b8-bac6-81b3c670e906": {
+                        "visible": false
+                    },
+                    "d81ec191-7aad-4c20-a7e9-7bfb004875ee": {
+                        "visible": false
+                    },
+                    "eca3dc13-5c6b-4dcd-9616-462429125835": {
+                        "visible": false
+                    },
                     "faed68bf-2562-44df-8b43-c9bf6d334afb": {
                         "visible": true
+                    },
+                    "faf373ca-d544-49fa-9efb-20514b941b79": {
+                        "visible": false
                     }
                 },
                 "show_construction_entities_from_previous_groups": false
