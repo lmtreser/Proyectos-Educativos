@@ -1,17 +1,17 @@
 {
     "workspace_views": {
         "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 132.62313842773438,
+            "cam_distance": 179.78526306152344,
             "cam_quat": [
-                -0.6988775730133057,
-                0.6503657698631287,
-                -0.14613275229930878,
-                0.2593061327934265
+                -0.008365130983293056,
+                0.004128705244511366,
+                -0.47663748264312744,
+                -0.8790504336357117
             ],
             "center": [
-                8.27164077758789,
-                -14.614572525024414,
-                -12.834601402282715
+                10.304045677185059,
+                -20.285465240478516,
+                -16.191184997558594
             ],
             "curvature_comb_scale": 0.0,
             "document": {
@@ -21,9 +21,14 @@
                         "solid_model_visible": true,
                         "visible": true
                     },
+                    "5d4c7057-c9bc-42f3-bed3-d9dc164d01ba": {
+                        "expanded": true,
+                        "solid_model_visible": true,
+                        "visible": true
+                    },
                     "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
                         "expanded": true,
-                        "solid_model_visible": false,
+                        "solid_model_visible": true,
                         "visible": true
                     },
                     "6c9f2e0f-daad-438a-b135-fd7275f9578a": {
@@ -31,20 +36,25 @@
                         "solid_model_visible": true,
                         "visible": true
                     },
+                    "82a46564-796c-433d-9c84-ca49adef4148": {
+                        "expanded": true,
+                        "solid_model_visible": true,
+                        "visible": false
+                    },
                     "925d27f9-befa-4f82-b689-0bbd801ab8fa": {
                         "expanded": true,
                         "solid_model_visible": true,
                         "visible": true
                     },
                     "a2e3740c-65df-4987-9b56-22eb68f623b4": {
-                        "expanded": false,
+                        "expanded": true,
                         "solid_model_visible": true,
-                        "visible": false
+                        "visible": true
                     },
                     "d81ec191-7aad-4c20-a7e9-7bfb004875ee": {
                         "expanded": true,
                         "solid_model_visible": true,
-                        "visible": false
+                        "visible": true
                     },
                     "e163d216-d43b-4085-9403-04e44bc70c0e": {
                         "expanded": true,
@@ -52,46 +62,49 @@
                         "visible": true
                     },
                     "faf373ca-d544-49fa-9efb-20514b941b79": {
-                        "expanded": false,
+                        "expanded": true,
                         "solid_model_visible": true,
-                        "visible": false
+                        "visible": true
                     }
                 },
-                "current_group": "6df70568-4520-4c1b-97d1-9d02a3ad2bfb",
+                "current_group": "05eb05d5-d0d8-4c4a-93f4-6a6306f0ad53",
                 "entity_views": {},
                 "group_views": {
                     "0a8cfeed-bb21-4874-a2df-1f0c81dd9a50": {
-                        "visible": false
+                        "visible": true
                     },
                     "124916d2-fe8c-40e1-8ca3-7caec0d2ebfc": {
-                        "visible": false
+                        "visible": true
                     },
                     "138d94ee-2e6a-42a5-9041-d007d9bc2762": {
-                        "visible": false
+                        "visible": true
                     },
                     "1cfa0a0a-187c-4501-bcb2-3d4c2cf654b5": {
-                        "visible": false
+                        "visible": true
                     },
                     "38a4fc7f-3e4d-41e8-abff-68991b2af339": {
-                        "visible": false
+                        "visible": true
                     },
                     "51f109d2-6786-4fe9-935f-f2ad4187c807": {
-                        "visible": false
+                        "visible": true
                     },
                     "5242e1ac-2888-4496-bcbe-e990402c6be3": {
-                        "visible": false
+                        "visible": true
                     },
                     "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf": {
                         "visible": false
                     },
                     "57bc874c-a697-430b-b8cb-07280bd9cac2": {
-                        "visible": false
+                        "visible": true
+                    },
+                    "6317c98c-43bd-4433-8c4f-9f11d39ea622": {
+                        "visible": true
                     },
                     "68904349-0ef6-42bb-9877-501f855c05a1": {
-                        "visible": false
+                        "visible": true
                     },
                     "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
-                        "visible": false
+                        "visible": true
                     },
                     "6df70568-4520-4c1b-97d1-9d02a3ad2bfb": {
                         "visible": true
@@ -103,30 +116,46 @@
                         "visible": false
                     },
                     "7fa996ff-78fc-41a2-bcf6-e12010762d98": {
+                        "visible": true
+                    },
+                    "82a46564-796c-433d-9c84-ca49adef4148": {
                         "visible": false
                     },
                     "a2e3740c-65df-4987-9b56-22eb68f623b4": {
                         "visible": true
                     },
+                    "a90abbf6-d379-40b4-a358-86076334b16c": {
+                        "visible": true
+                    },
                     "ad06be00-8bb6-41bb-b178-85af9e2700cf": {
+                        "visible": true
+                    },
+                    "c3e7a029-6ea8-472d-924d-9ebfe36860b0": {
                         "visible": true
                     },
                     "ceeb953b-f495-46b8-bac6-81b3c670e906": {
                         "visible": false
                     },
+                    "d67ff076-c225-4286-94d0-c2a4f0e3a140": {
+                        "visible": true
+                    },
                     "d81ec191-7aad-4c20-a7e9-7bfb004875ee": {
-                        "visible": false
+                        "visible": true
+                    },
+                    "e0d20796-b0b7-4863-a4cf-043e523a1ed0": {
+                        "visible": true
                     },
                     "eca3dc13-5c6b-4dcd-9616-462429125835": {
-                        "visible": false
+                        "visible": true
                     },
                     "faed68bf-2562-44df-8b43-c9bf6d334afb": {
                         "visible": true
                     },
                     "faf373ca-d544-49fa-9efb-20514b941b79": {
-                        "visible": false
+                        "visible": true
                     }
                 },
+                "hide_irrelevant_workplanes": true,
                 "show_construction_entities_from_previous_groups": false
             },
             "name": "",
