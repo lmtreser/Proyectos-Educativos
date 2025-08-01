@@ -1,22 +1,32 @@
 {
     "workspace_views": {
         "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 132.6197052001953,
+            "cam_distance": 132.62313842773438,
             "cam_quat": [
-                0.9016267657279968,
-                0.1705460399389267,
-                -0.24734199047088623,
-                -0.3111356198787689
+                -0.6988775730133057,
+                0.6503657698631287,
+                -0.14613275229930878,
+                0.2593061327934265
             ],
             "center": [
-                -6.044877052307129,
-                6.641048908233643,
-                -15.848658561706543
+                8.27164077758789,
+                -14.614572525024414,
+                -12.834601402282715
             ],
             "curvature_comb_scale": 0.0,
             "document": {
                 "body_views": {
+                    "0c34177c-7cb9-4271-bfad-1032b3dfa14c": {
+                        "expanded": true,
+                        "solid_model_visible": true,
+                        "visible": true
+                    },
                     "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
+                        "expanded": true,
+                        "solid_model_visible": false,
+                        "visible": true
+                    },
+                    "6c9f2e0f-daad-438a-b135-fd7275f9578a": {
                         "expanded": true,
                         "solid_model_visible": true,
                         "visible": true
@@ -26,10 +36,15 @@
                         "solid_model_visible": true,
                         "visible": true
                     },
+                    "a2e3740c-65df-4987-9b56-22eb68f623b4": {
+                        "expanded": false,
+                        "solid_model_visible": true,
+                        "visible": false
+                    },
                     "d81ec191-7aad-4c20-a7e9-7bfb004875ee": {
                         "expanded": true,
                         "solid_model_visible": true,
-                        "visible": true
+                        "visible": false
                     },
                     "e163d216-d43b-4085-9403-04e44bc70c0e": {
                         "expanded": true,
@@ -76,7 +91,13 @@
                         "visible": false
                     },
                     "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
+                        "visible": false
+                    },
+                    "6df70568-4520-4c1b-97d1-9d02a3ad2bfb": {
                         "visible": true
+                    },
+                    "7259639e-4541-4a43-b7dd-5248464675ae": {
+                        "visible": false
                     },
                     "7c45f56e-71b0-428a-88cf-a1c2d1d61631": {
                         "visible": false
