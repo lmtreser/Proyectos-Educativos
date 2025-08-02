@@ -209,8 +209,14 @@
             ],
             "type": "diameter"
         },
+        "0c976f07-e419-4f2c-adc1-7c63b2a778bb": {
+            "entity1": "69634146-7d29-4fe9-998c-5abd08d99faa",
+            "entity2": "9abd9560-20ae-4ef1-bb75-70dc3f6002be",
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "type": "equal_radius"
+        },
         "0e3d6140-cbf6-45c4-9973-0a42012cddb7": {
-            "distance": 5.0,
+            "distance": 3.5,
             "entity1": {
                 "entity": "47599f2a-ff27-5eaa-af6d-d8c47e40f85d",
                 "point": 1
@@ -221,9 +227,9 @@
             },
             "group": "a3d8a36d-f296-4611-8f21-bd7fda19943c",
             "offset": [
-                -0.04623037437733046,
-                1.0475232709870426,
-                -0.29704285364564953
+                -0.3118730853075249,
+                1.0263473939111663,
+                -1.5238795382376296
             ],
             "type": "point_distance",
             "wrkpl": "00000000-0000-0000-0000-000000000000"
@@ -293,6 +299,18 @@
                 -2.065200756737184
             ],
             "type": "diameter"
+        },
+        "12329630-1d2a-4e25-879b-705c54a6eeef": {
+            "entity1": {
+                "entity": "c7ce0c02-a620-5c9f-af45-3f517ef62fe9",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358",
+                "point": 1
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "points_coincident"
         },
         "1280f731-2d64-44ca-a0b0-a4af843eb330": {
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
@@ -494,6 +512,19 @@
             "type": "point_distance",
             "wrkpl": "00000000-0000-0000-0000-000000000000"
         },
+        "187d9ec3-30af-4600-a946-e4f784cb5b57": {
+            "entity1": {
+                "entity": "8509eb3c-170c-4a1c-9905-636f7d250f1f",
+                "point": 2
+            },
+            "entity2": {
+                "entity": "cf6c50bd-2221-40c7-807a-ffd141a7efaf",
+                "point": 1
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "points_coincident",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "1887a1a9-95cd-4cf4-9acc-f034b8004706": {
             "entity1": {
                 "entity": "aa2017e7-8434-4be4-a074-0709ad3b3f7b",
@@ -637,7 +668,7 @@
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "1d674229-f7b0-4517-8d92-f85176b7fa7b": {
-            "distance": 27.52,
+            "distance": 26.2,
             "entity1": {
                 "entity": "81f03163-af1f-4c3e-a8d5-950e8e240156",
                 "point": 1
@@ -891,6 +922,23 @@
             "line": "3aa939c7-2166-4145-bae2-e296073e0280",
             "type": "arc_line_tangent"
         },
+        "2779a566-2fb6-4c3e-a4d8-4da4f45d0658": {
+            "distance": 2.0,
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "line": "63229e95-aefc-4842-a899-76a7753a61f1",
+            "measurement": false,
+            "offset": [
+                2.6916465759277344,
+                -2.6733442193310033,
+                0.0
+            ],
+            "point": {
+                "entity": "69634146-7d29-4fe9-998c-5abd08d99faa",
+                "point": 1
+            },
+            "type": "point_line_distance",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
         "2793ecd0-c6d6-4238-80d0-8f3c6c847dd2": {
             "flip_normal": true,
             "group": "138d94ee-2e6a-42a5-9041-d007d9bc2762",
@@ -938,6 +986,25 @@
             ],
             "type": "point_distance_horizontal",
             "wrkpl": "ea362b53-38aa-4ad0-963d-20debcf18b72"
+        },
+        "29b930ae-73cb-459f-963e-d54b3cfe904b": {
+            "distance": 15.0,
+            "entity1": {
+                "entity": "8509eb3c-170c-4a1c-9905-636f7d250f1f",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "8509eb3c-170c-4a1c-9905-636f7d250f1f",
+                "point": 2
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "offset": [
+                9.025867462158203,
+                -5.531737804412842,
+                0.0
+            ],
+            "type": "point_distance_vertical",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
         },
         "2a1e7530-e20e-43a0-ac31-c3b65c2ceaca": {
             "distance": 11.15,
@@ -1042,7 +1109,7 @@
                 "point": 1
             },
             "type": "point_on_line",
-            "val": -5.038630646528062e-20,
+            "val": 2.8543606405807333e-20,
             "wrkpl": "077e7831-83ca-4a88-a156-eb5b0b19df3f"
         },
         "302ab6aa-8ff3-420c-afee-d238bc6d3e2d": {
@@ -1152,6 +1219,23 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "type": "points_coincident",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
+        },
+        "35af7a69-994d-4df6-9ed7-5712b238bb1b": {
+            "distance": -5.0,
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "line": "aa2017e7-8434-4be4-a074-0709ad3b3f7b",
+            "measurement": false,
+            "offset": [
+                -0.7831001281738281,
+                -5.624973297119141,
+                0.0
+            ],
+            "point": {
+                "entity": "69634146-7d29-4fe9-998c-5abd08d99faa",
+                "point": 1
+            },
+            "type": "point_line_distance",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "37172115-837d-4a8b-9dec-5658222bae7f": {
             "entity1": {
@@ -1425,6 +1509,17 @@
             "type": "points_coincident",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
+        "469d9681-3add-4412-9648-7e4fc8092d42": {
+            "distance": 3.0,
+            "entity": "69634146-7d29-4fe9-998c-5abd08d99faa",
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "measurement": false,
+            "offset": [
+                -3.671833038330078,
+                -3.0948009490966797
+            ],
+            "type": "diameter"
+        },
         "46b6aa0a-0241-441a-9e1c-a6b03506b58f": {
             "entity1": {
                 "entity": "17ecfabd-d9d2-4b46-af57-84f323f94e84",
@@ -1461,6 +1556,23 @@
                 -1.4424608866646729
             ],
             "type": "diameter"
+        },
+        "483a258f-f155-404c-9df9-a038bffbd5f8": {
+            "distance": 1.0,
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "line": "63229e95-aefc-4842-a899-76a7753a61f1",
+            "measurement": true,
+            "offset": [
+                -6.474689483642578,
+                -0.2774999141693114,
+                0.0
+            ],
+            "point": {
+                "entity": "9abd9560-20ae-4ef1-bb75-70dc3f6002be",
+                "point": 1
+            },
+            "type": "point_line_distance",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "484451c9-835f-45b3-b51b-9734b52920d4": {
             "distance": 36.0,
@@ -1525,6 +1637,19 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "type": "points_coincident",
             "wrkpl": "077e7831-83ca-4a88-a156-eb5b0b19df3f"
+        },
+        "4c9572af-c480-446f-b8b7-1a5daa326661": {
+            "entity1": {
+                "entity": "0d56032d-f5ac-458b-a162-2487096d01ef",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "0d56032d-f5ac-458b-a162-2487096d01ef",
+                "point": 2
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "vertical",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
         },
         "4cb1ac1c-7e54-4936-b749-241e31fea628": {
             "distance": 32.3,
@@ -1944,6 +2069,26 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "type": "points_coincident"
         },
+        "5ef49ef2-5a5a-49a7-b94f-a868c414ee96": {
+            "distance": 26.999999999999996,
+            "entity1": {
+                "entity": "2d685221-d6b0-5483-8d1f-c0a95e256b8f",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "3e53541c-b5e2-56ad-9889-e6ef1bb2ddeb",
+                "point": 1
+            },
+            "group": "05eb05d5-d0d8-4c4a-93f4-6a6306f0ad53",
+            "measurement": true,
+            "offset": [
+                12.41914176940918,
+                2.521592250559479e-07,
+                -2.7331277650227435
+            ],
+            "type": "point_distance",
+            "wrkpl": "00000000-0000-0000-0000-000000000000"
+        },
         "5fabf0df-aa9d-4f79-a897-e1c29449e7c7": {
             "entity1": {
                 "entity": "6198669e-3494-4580-924f-2e77efd3b74b",
@@ -2043,6 +2188,25 @@
             "type": "midpoint",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
+        "610c115f-7b3f-4a4b-882d-60dd846367c5": {
+            "distance": 15.0,
+            "entity1": {
+                "entity": "cf6c50bd-2221-40c7-807a-ffd141a7efaf",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "cf6c50bd-2221-40c7-807a-ffd141a7efaf",
+                "point": 2
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "offset": [
+                2.918933868408203,
+                3.1805596351623535,
+                0.0
+            ],
+            "type": "point_distance_horizontal",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "615a24f8-5b06-4d04-8b14-c5c8c08b21ea": {
             "arc": {
                 "entity": "c67f41e5-a622-4911-81a6-ff0646bac1f0",
@@ -2060,6 +2224,25 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "line": "74dc4458-9ffd-4dc6-a7de-ac48eff0961b",
             "type": "arc_line_tangent"
+        },
+        "6279b99f-5965-4e0d-ace5-d014307ea467": {
+            "distance": 7.0,
+            "entity1": {
+                "entity": "6e8eb2e8-23d6-4b4f-b470-d13c6b14d5e8",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "d68041d2-1ab2-4af0-a748-74207239584c",
+                "point": 1
+            },
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "offset": [
+                -3.3106778991943386,
+                -13.321878395603399,
+                0.0
+            ],
+            "type": "point_distance_horizontal",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "627a307c-5b5c-4706-bd00-8ba55521c1e9": {
             "entity1": {
@@ -2219,6 +2402,14 @@
             "type": "midpoint",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
+        "6969e7cc-bc24-4505-8009-a66b2e3158ac": {
+            "flip_normal": true,
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "line1": "6e8eb2e8-23d6-4b4f-b470-d13c6b14d5e8",
+            "line2": "c71a36b7-0816-484f-ab92-81873416248e",
+            "type": "workplane_normal",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "6a0b8e82-11c9-4dc7-bade-0c707593e57a": {
             "entity1": {
                 "entity": "27fc1bf0-6947-5cfe-b75e-98931eb3219d",
@@ -2244,6 +2435,26 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "type": "horizontal",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
+        },
+        "6b23bd54-4f1e-4388-a41c-c472dc871e5f": {
+            "distance": 9.000000000000043,
+            "entity1": {
+                "entity": "91f7de05-5e7b-4181-be34-034040182baf",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "e7d92a72-c2bb-57a1-a6bc-cf11164936b7",
+                "point": 2
+            },
+            "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
+            "measurement": true,
+            "offset": [
+                9.741167068481445,
+                1.0579643249511719,
+                0.0
+            ],
+            "type": "point_distance_horizontal",
+            "wrkpl": "2f5025ed-38f8-4dee-a1ac-803d69a69eaf"
         },
         "6c3125c4-4855-403c-bbaf-d2d4f36b7cff": {
             "distance": 3.25,
@@ -2308,6 +2519,25 @@
             "offset": [
                 -25.89788171386968,
                 45.97490542709446,
+                0.0
+            ],
+            "type": "point_distance_vertical",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
+        "6e06361d-4c82-4441-82e3-741c9a8d42a7": {
+            "distance": 3.0,
+            "entity1": {
+                "entity": "40b5b405-9514-48da-9b47-ac8f2df24535",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "6e8eb2e8-23d6-4b4f-b470-d13c6b14d5e8",
+                "point": 1
+            },
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "offset": [
+                -6.567043476518371,
+                -6.459633069990627,
                 0.0
             ],
             "type": "point_distance_vertical",
@@ -2527,6 +2757,26 @@
             "type": "point_distance_vertical",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
+        "7a3172f9-80fb-44bc-b56e-8e2a41ad5bbe": {
+            "distance": 8.999999999997812,
+            "entity1": {
+                "entity": "69634146-7d29-4fe9-998c-5abd08d99faa",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "9abd9560-20ae-4ef1-bb75-70dc3f6002be",
+                "point": 1
+            },
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "measurement": true,
+            "offset": [
+                8.69826889038086,
+                -7.571535110473633,
+                0.0
+            ],
+            "type": "point_distance_horizontal",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
         "7a4796b4-5b3a-4139-b246-ec09fe9714a0": {
             "group": "34b846b1-b3cb-4c31-ad5c-e4f145cbd8f2",
             "line": "048fe411-4e7c-568f-8852-57150e40848b",
@@ -2535,7 +2785,7 @@
                 "point": 1
             },
             "type": "point_on_line",
-            "val": 0.7999999999999993,
+            "val": 0.8,
             "wrkpl": "8f9eb257-b7ef-4766-ae49-0b051439e03f"
         },
         "7c76415e-ac43-44e6-873d-15ff2db543b8": {
@@ -2556,6 +2806,32 @@
             ],
             "type": "point_distance_horizontal",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
+        "7caa1dfd-1b8e-45c0-a016-fe0354b64c9f": {
+            "entity1": {
+                "entity": "cf6c50bd-2221-40c7-807a-ffd141a7efaf",
+                "point": 2
+            },
+            "entity2": {
+                "entity": "0d56032d-f5ac-458b-a162-2487096d01ef",
+                "point": 1
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "points_coincident",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
+        "7d78649b-fe91-407f-9f0c-334167769e4a": {
+            "entity1": {
+                "entity": "cf6c50bd-2221-40c7-807a-ffd141a7efaf",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "cf6c50bd-2221-40c7-807a-ffd141a7efaf",
+                "point": 2
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "horizontal",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
         },
         "7e41c621-0e61-41fa-9eb2-62e76233cd54": {
             "distance": 13.45,
@@ -2696,6 +2972,34 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "type": "vertical",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
+        "82a762ee-8b60-4fb3-a9b0-f960e160bae4": {
+            "distance": -12.0,
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "line": "c71a36b7-0816-484f-ab92-81873416248e",
+            "measurement": false,
+            "offset": [
+                -7.120573392012524,
+                -8.862720510806465,
+                0.0
+            ],
+            "point": {
+                "entity": "d68041d2-1ab2-4af0-a748-74207239584c",
+                "point": 1
+            },
+            "type": "point_line_distance",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
+        "834be08d-32e8-4f8c-9933-c4c7ebb5afe0": {
+            "distance": 8.1,
+            "entity": "81f03163-af1f-4c3e-a8d5-950e8e240156",
+            "group": "faf373ca-d544-49fa-9efb-20514b941b79",
+            "measurement": true,
+            "offset": [
+                1.8299072265624972,
+                5.0213736119302865
+            ],
+            "type": "radius"
         },
         "83ac9d9f-adee-4b9f-8a21-3fec578e0a7e": {
             "entity1": {
@@ -3571,7 +3875,7 @@
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "a68b4cb0-ae21-4ccc-b9d5-4bab11089ff9": {
-            "distance": 13.76,
+            "distance": 13.1,
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "line": "ffd72b4a-7c37-4c86-ab80-dcf1a2990507",
             "measurement": false,
@@ -4052,6 +4356,19 @@
             "type": "point_distance",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
+        "c1edfe84-e738-4e6f-8a5a-2bfacc5c89e9": {
+            "entity1": {
+                "entity": "0d56032d-f5ac-458b-a162-2487096d01ef",
+                "point": 2
+            },
+            "entity2": {
+                "entity": "ffdb953a-bf9b-4a66-a452-6e8a20fca2b8",
+                "point": 1
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "points_coincident",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "c2352d97-13cb-4e6b-83d7-20fff83481c2": {
             "distance": -12.0,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -4266,6 +4583,19 @@
             "type": "workplane_normal",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
         },
+        "cb0cfcb5-2bb4-4c86-b257-9b2632300620": {
+            "entity1": {
+                "entity": "8509eb3c-170c-4a1c-9905-636f7d250f1f",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "8509eb3c-170c-4a1c-9905-636f7d250f1f",
+                "point": 2
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "vertical",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "cb11b8f8-085b-4393-85d4-b187cf582df3": {
             "distance": 3.0,
             "entity": "c9adf2e1-349e-41eb-b532-0d460e57a204",
@@ -4332,6 +4662,23 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "type": "vertical",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
+        },
+        "cdb6e2b9-62c3-4227-a191-2d34f6d9372a": {
+            "distance": -14.0,
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "line": "aa2017e7-8434-4be4-a074-0709ad3b3f7b",
+            "measurement": false,
+            "offset": [
+                0.5243492126464844,
+                2.496075391769409,
+                0.0
+            ],
+            "point": {
+                "entity": "9abd9560-20ae-4ef1-bb75-70dc3f6002be",
+                "point": 1
+            },
+            "type": "point_line_distance",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "cdb7541e-c6bf-4c89-8ff4-9d3dd73a3def": {
             "distance": 16.5,
@@ -4585,7 +4932,7 @@
                 "point": 1
             },
             "type": "point_on_line",
-            "val": 0.7866666666666666,
+            "val": 0.7729166666666667,
             "wrkpl": "077e7831-83ca-4a88-a156-eb5b0b19df3f"
         },
         "d768e6bf-2211-4498-990b-d3291591facf": {
@@ -4660,6 +5007,19 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "line": "7e167d1d-b33a-4ad3-931c-8316cc0e5fb9",
             "type": "arc_line_tangent"
+        },
+        "dc683f17-5581-4d61-9e78-e7f6b4d35a34": {
+            "entity1": {
+                "entity": "ffdb953a-bf9b-4a66-a452-6e8a20fca2b8",
+                "point": 2
+            },
+            "entity2": {
+                "entity": "8509eb3c-170c-4a1c-9905-636f7d250f1f",
+                "point": 1
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "points_coincident",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
         },
         "dcc0c25c-0872-4edd-92e8-19aecbdf6256": {
             "entity1": {
@@ -4833,6 +5193,26 @@
             ],
             "type": "diameter"
         },
+        "e58f33a0-62ce-4369-97d4-721eb5c45cb4": {
+            "distance": 4.0,
+            "entity1": {
+                "entity": "7c991d67-3566-41d3-9ff2-43ee42022fe3",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "91f7de05-5e7b-4181-be34-034040182baf",
+                "point": 1
+            },
+            "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
+            "measurement": true,
+            "offset": [
+                2.0790176391601563,
+                1.4532604217529297,
+                0.0
+            ],
+            "type": "point_distance_vertical",
+            "wrkpl": "2f5025ed-38f8-4dee-a1ac-803d69a69eaf"
+        },
         "e590ed53-5198-4dd8-ad99-c71c0f1b9ff0": {
             "distance": 3.0,
             "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
@@ -4939,6 +5319,19 @@
             "type": "points_coincident",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
+        "ece369e7-e3cb-455a-89d4-e10e224e5665": {
+            "entity1": {
+                "entity": "ffdb953a-bf9b-4a66-a452-6e8a20fca2b8",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "ffdb953a-bf9b-4a66-a452-6e8a20fca2b8",
+                "point": 2
+            },
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "horizontal",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "edf203e6-8081-42ec-bf25-8fa2dbe45fd5": {
             "group": "34b846b1-b3cb-4c31-ad5c-e4f145cbd8f2",
             "line": "8bb669cc-e1fc-42b6-8d20-39a50f62dba3",
@@ -4967,6 +5360,25 @@
             ],
             "type": "point_distance_vertical",
             "wrkpl": "4447f429-320f-4000-9ffc-defb397ce151"
+        },
+        "ee461f45-ea13-48a8-818c-18a02666c49e": {
+            "distance": 4.0,
+            "entity1": {
+                "entity": "69634146-7d29-4fe9-998c-5abd08d99faa",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "9abd9560-20ae-4ef1-bb75-70dc3f6002be",
+                "point": 1
+            },
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "offset": [
+                7.091987609863281,
+                0.10797619819641113,
+                0.0
+            ],
+            "type": "point_distance_vertical",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "ee481b23-a1ca-4308-a32f-e4bc58c664b8": {
             "entity1": {
@@ -5068,6 +5480,25 @@
             "type": "point_line_distance",
             "wrkpl": "68f259f6-e9fd-487b-9b73-01c7ce4a6602"
         },
+        "f2cc7365-ed28-47dd-ad4e-1a1339867e07": {
+            "distance": 3.0,
+            "entity1": {
+                "entity": "6e8eb2e8-23d6-4b4f-b470-d13c6b14d5e8",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "40b5b405-9514-48da-9b47-ac8f2df24535",
+                "point": 1
+            },
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "offset": [
+                -0.03182986014670419,
+                -7.896832343350866,
+                0.0
+            ],
+            "type": "point_distance_horizontal",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
         "f37343d7-2064-419d-bbf2-c3b3d36bd584": {
             "distance": 3.5,
             "entity1": {
@@ -5099,6 +5530,19 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "type": "vertical",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
+        },
+        "f39657d8-f504-4f4f-99cf-b919e4d2dc4d": {
+            "entity1": {
+                "entity": "6195216b-ff72-491e-bb44-9f4aeeb6c3ae",
+                "point": 1
+            },
+            "entity2": {
+                "entity": "6195216b-ff72-491e-bb44-9f4aeeb6c3ae",
+                "point": 2
+            },
+            "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
+            "type": "vertical",
+            "wrkpl": "2f5025ed-38f8-4dee-a1ac-803d69a69eaf"
         },
         "f3c41350-3bcb-4378-aa88-3babffd1c30d": {
             "entity1": {
@@ -5382,7 +5826,7 @@
                 -0.0
             ],
             "p2": [
-                36.0,
+                36.00000000000001,
                 -50.0,
                 -0.0
             ],
@@ -5390,19 +5834,19 @@
         },
         "01c433fb-553c-4aa8-9d57-b2e69853e02e": {
             "center": [
-                50.00000000000001,
-                -40.0
+                50.0,
+                -40.00000000000001
             ],
             "construction": false,
             "from": [
-                50.00000000000001,
+                50.0,
                 -50.0
             ],
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "to": [
-                60.00000000000001,
-                -40.0
+                60.0,
+                -40.00000000000001
             ],
             "type": "arc_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -5412,11 +5856,11 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -55.0,
+                -55.00000000000001,
                 31.999999999999996
             ],
             "p2": [
-                -36.0,
+                -36.00000000000001,
                 31.999999999999996
             ],
             "type": "line_2d",
@@ -5424,19 +5868,19 @@
         },
         "02b064ff-e859-4cdf-9c51-de1e8606f90f": {
             "center": [
-                24.72,
-                -3.6999999999999993
+                24.720000000000006,
+                -3.7000000000000064
             ],
             "construction": false,
             "from": [
-                25.72,
-                -3.6999999999999993
+                25.720000000000006,
+                -3.7000000000000064
             ],
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
             "name": "",
             "to": [
-                24.72,
-                -2.6999999999999993
+                24.720000000000006,
+                -2.7000000000000064
             ],
             "type": "arc_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -5452,7 +5896,7 @@
                 0.7071067811865476
             ],
             "origin": [
-                3.4162715247594244e-31,
+                3.552713678800507e-15,
                 -50.0,
                 1.9999999999999973
             ],
@@ -5461,6 +5905,21 @@
                 150.0
             ],
             "type": "workplane"
+        },
+        "0d56032d-f5ac-458b-a162-2487096d01ef": {
+            "construction": false,
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "name": "",
+            "p1": [
+                6.940704822540295,
+                -42.721282958984375
+            ],
+            "p2": [
+                6.940704822540295,
+                -57.721282958984375
+            ],
+            "type": "line_2d",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
         },
         "0ee5bbf1-d671-4ea2-be18-e5ac9b5efa37": {
             "anchors": {},
@@ -5484,8 +5943,8 @@
         },
         "122e6711-7980-4857-818e-7e9b4d82c455": {
             "center": [
-                -6.179999999999998,
-                -7.700000000000005
+                -6.179999999999992,
+                -7.700000000000004
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -5496,8 +5955,8 @@
         },
         "17ecfabd-d9d2-4b46-af57-84f323f94e84": {
             "center": [
-                7.2700000000000005,
-                -7.700000000000005
+                7.270000000000008,
+                -7.700000000000004
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -5527,19 +5986,19 @@
         },
         "1aeecdb1-b9d1-4ed1-950d-524d9c166196": {
             "center": [
-                50.00000000000001,
-                40.0
+                50.0,
+                40.00000000000001
             ],
             "construction": false,
             "from": [
-                60.00000000000001,
-                40.0
+                60.0,
+                40.00000000000001
             ],
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "to": [
-                50.00000000000001,
-                50.0
+                50.0,
+                50.00000000000001
             ],
             "type": "arc_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -5549,11 +6008,11 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "p1": [
-                36.0,
-                -40.0
+                36.00000000000001,
+                -40.00000000000001
             ],
             "p2": [
-                36.0,
+                36.00000000000001,
                 -50.0
             ],
             "type": "line_2d",
@@ -5584,11 +6043,11 @@
             "group": "5242e1ac-2888-4496-bcbe-e990402c6be3",
             "name": "",
             "p1": [
-                -11.23,
+                -11.229999999999999,
                 -2.500000000000007
             ],
             "p2": [
-                -11.23,
+                -11.229999999999999,
                 -5.000000000000007
             ],
             "type": "line_2d",
@@ -5599,11 +6058,11 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -36.0,
+                -36.00000000000001,
                 1.9999999999999973
             ],
             "p2": [
-                -36.0,
+                -36.00000000000001,
                 31.999999999999996
             ],
             "type": "line_2d",
@@ -5618,7 +6077,7 @@
                 -2.500000000000007
             ],
             "p2": [
-                -11.23,
+                -11.229999999999999,
                 -2.500000000000007
             ],
             "type": "line_2d",
@@ -5629,12 +6088,12 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "p1": [
-                50.00000000000001,
-                50.0
+                50.0,
+                50.00000000000001
             ],
             "p2": [
-                36.00000000000001,
-                50.0
+                36.0,
+                50.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -5645,11 +6104,11 @@
             "name": "",
             "p1": [
                 -15.600000000000001,
-                -16.650000000000002
+                -16.65
             ],
             "p2": [
                 -12.179999999999998,
-                -16.650000000000002
+                -16.65
             ],
             "type": "line_2d",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
@@ -5661,8 +6120,8 @@
             "normal": [
                 -0.7071067811865475,
                 0.7071067811865476,
-                -7.536443801682121e-17,
-                -7.536443801682121e-17
+                -7.536443801682122e-17,
+                -7.536443801682122e-17
             ],
             "origin": [
                 -0.0,
@@ -5710,11 +6169,11 @@
             "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
             "name": "",
             "p1": [
-                40.00000000000001,
+                40.000000000000014,
                 35.99999999999999
             ],
             "p2": [
-                25.000000000000007,
+                25.000000000000014,
                 25.999999999999993
             ],
             "type": "line_2d",
@@ -5731,8 +6190,8 @@
                 0.7071067811865476
             ],
             "origin": [
-                -1.4656764652275719e-30,
-                -40.0,
+                3.552713678800501e-15,
+                -40.00000000000001,
                 1.9999999999999973
             ],
             "size": [
@@ -5746,7 +6205,7 @@
             "group": "5242e1ac-2888-4496-bcbe-e990402c6be3",
             "name": "",
             "p1": [
-                -11.23,
+                -11.229999999999999,
                 -5.000000000000007
             ],
             "p2": [
@@ -5765,7 +6224,7 @@
                 1.25
             ],
             "p2": [
-                4.500000000000005,
+                4.500000000000004,
                 1.25
             ],
             "type": "line_2d",
@@ -5776,20 +6235,20 @@
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
             "name": "",
             "p1": [
-                -10.18,
-                -2.6999999999999993
+                -10.179999999999996,
+                -2.7000000000000064
             ],
             "p2": [
-                24.72,
-                -2.6999999999999993
+                24.720000000000006,
+                -2.7000000000000064
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "3ab70a04-679a-45c1-a604-851692faec6d": {
             "center": [
-                -29.000000000000004,
-                -37.0
+                -29.0,
+                -37.00000000000001
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -5803,11 +6262,11 @@
             "group": "34b846b1-b3cb-4c31-ad5c-e4f145cbd8f2",
             "name": "",
             "p1": [
-                4.49999999999999,
-                1.2500000000000004
+                4.499999999999999,
+                1.2500000000000002
             ],
             "p2": [
-                1.2499999999999898,
+                1.249999999999999,
                 28.74999999999999
             ],
             "type": "line_2d",
@@ -5818,11 +6277,11 @@
             "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
             "name": "",
             "p1": [
-                40.00000000000001,
+                40.000000000000014,
                 25.999999999999993
             ],
             "p2": [
-                25.000000000000007,
+                25.000000000000014,
                 35.99999999999999
             ],
             "type": "line_2d",
@@ -5833,11 +6292,11 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -7.0,
+                -7.000000000000006,
                 55.0
             ],
             "p2": [
-                -7.0,
+                -7.000000000000006,
                 31.999999999999996
             ],
             "type": "line_2d",
@@ -5858,26 +6317,26 @@
         "3fbd2c21-0e22-4009-933a-b133beb03497": {
             "center": [
                 -50.0,
-                40.0
+                40.00000000000001
             ],
             "construction": false,
             "from": [
                 -50.0,
-                50.0
+                50.00000000000001
             ],
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "to": [
                 -60.0,
-                40.0
+                40.00000000000001
             ],
             "type": "arc_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "40b5b405-9514-48da-9b47-ac8f2df24535": {
             "center": [
-                -26.92189598083496,
-                26.560020446777344
+                -33.0,
+                37.0
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -5900,7 +6359,7 @@
             "name": "",
             "to": [
                 -12.179999999999998,
-                -16.650000000000002
+                -16.65
             ],
             "type": "arc_2d",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
@@ -5910,12 +6369,12 @@
             "group": "34b846b1-b3cb-4c31-ad5c-e4f145cbd8f2",
             "name": "",
             "p1": [
-                1.2499999999999898,
-                1.2500000000000004
+                1.249999999999999,
+                1.2500000000000002
             ],
             "p2": [
-                4.49999999999999,
-                1.2500000000000004
+                4.499999999999999,
+                1.2500000000000002
             ],
             "type": "line_2d",
             "wrkpl": "8f9eb257-b7ef-4766-ae49-0b051439e03f"
@@ -5931,8 +6390,8 @@
                 0.7071067811865476
             ],
             "origin": [
-                25.72,
-                -8.2,
+                25.720000000000006,
+                -8.200000000000006,
                 -1.75
             ],
             "size": [
@@ -5958,11 +6417,11 @@
             "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
             "name": "",
             "p1": [
-                40.00000000000001,
+                40.000000000000014,
                 25.999999999999993
             ],
             "p2": [
-                25.000000000000007,
+                25.000000000000014,
                 25.999999999999993
             ],
             "type": "line_2d",
@@ -5985,11 +6444,11 @@
             "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
             "name": "",
             "p1": [
-                25.000000000000007,
+                25.000000000000014,
                 25.999999999999993
             ],
             "p2": [
-                25.000000000000007,
+                25.000000000000014,
                 35.99999999999999
             ],
             "type": "line_2d",
@@ -6016,7 +6475,7 @@
         },
         "519b3a82-812e-4b0b-a78c-0091ce127c37": {
             "center": [
-                -17.240000000000002,
+                -17.900000000000006,
                 43.5
             ],
             "construction": false,
@@ -6059,7 +6518,7 @@
         "58045cbd-f6ab-408e-b4fb-f811827d5191": {
             "center": [
                 -12.179999999999998,
-                -17.650000000000002
+                -17.65
             ],
             "construction": false,
             "from": [
@@ -6070,7 +6529,7 @@
             "name": "",
             "to": [
                 -12.179999999999998,
-                -16.650000000000002
+                -16.65
             ],
             "type": "arc_2d",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
@@ -6092,15 +6551,30 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -55.0,
-                43.5
+                -55.00000000000001,
+                43.49999999999999
             ],
             "p2": [
-                -7.0,
+                -7.000000000000006,
                 43.5
             ],
             "type": "line_2d",
             "wrkpl": "077e7831-83ca-4a88-a156-eb5b0b19df3f"
+        },
+        "6195216b-ff72-491e-bb44-9f4aeeb6c3ae": {
+            "construction": true,
+            "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
+            "name": "",
+            "p1": [
+                33.24881828919008,
+                44.27845834655662
+            ],
+            "p2": [
+                33.24881828919008,
+                4.278458346556619
+            ],
+            "type": "line_2d",
+            "wrkpl": "2f5025ed-38f8-4dee-a1ac-803d69a69eaf"
         },
         "6198669e-3494-4580-924f-2e77efd3b74b": {
             "construction": false,
@@ -6123,11 +6597,11 @@
             "name": "",
             "p1": [
                 -60.0,
-                0.0
+                8.41241269327687e-27
             ],
             "p2": [
-                60.00000000000001,
-                0.0
+                60.0,
+                2.9250962365595118e-27
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6155,8 +6629,8 @@
                 0.0
             ],
             "origin": [
-                6.77,
-                -7.699999999999999,
+                6.770000000000005,
+                -7.700000000000006,
                 -3.5
             ],
             "size": [
@@ -6164,6 +6638,18 @@
                 100.0
             ],
             "type": "workplane"
+        },
+        "69634146-7d29-4fe9-998c-5abd08d99faa": {
+            "center": [
+                -55.0,
+                -2.0
+            ],
+            "construction": false,
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "name": "",
+            "radius": 1.5,
+            "type": "circle_2d",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "6caf73cf-1cd7-4ad0-b67f-bb123abf39d5": {
             "construction": true,
@@ -6175,7 +6661,7 @@
                 3.9999999999999947
             ],
             "p2": [
-                36.0,
+                36.00000000000001,
                 -50.0,
                 -0.0
             ],
@@ -6195,7 +6681,7 @@
             "name": "",
             "to": [
                 -15.600000000000001,
-                -16.650000000000002
+                -16.65
             ],
             "type": "arc_2d",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
@@ -6206,11 +6692,11 @@
             "name": "",
             "p1": [
                 -36.0,
-                40.0
+                40.00000000000001
             ],
             "p2": [
                 -36.0,
-                50.0
+                50.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6220,11 +6706,11 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -26.0,
+                -26.000000000000007,
                 1.9999999999999973
             ],
             "p2": [
-                -36.0,
+                -36.00000000000001,
                 1.9999999999999973
             ],
             "type": "line_2d",
@@ -6232,8 +6718,8 @@
         },
         "71e015a6-4fba-41c7-ac88-27a7cfbe7e9b": {
             "center": [
-                7.270000000000006,
-                7.699999999999999
+                7.27,
+                7.700000000000005
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -6244,8 +6730,8 @@
         },
         "71f6a19a-0a48-40e2-be34-619dd5662b11": {
             "center": [
-                -6.1799999999999935,
-                7.699999999999999
+                -6.18,
+                7.700000000000005
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -6263,7 +6749,7 @@
                 -2.500000000000007
             ],
             "p2": [
-                -13.83,
+                -13.829999999999998,
                 -5.000000000000007
             ],
             "type": "line_2d",
@@ -6318,7 +6804,7 @@
         },
         "7c991d67-3566-41d3-9ff2-43ee42022fe3": {
             "center": [
-                37.00000000000001,
+                37.000000000000014,
                 28.999999999999993
             ],
             "construction": false,
@@ -6348,20 +6834,20 @@
             "group": "d81ec191-7aad-4c20-a7e9-7bfb004875ee",
             "name": "",
             "p1": [
-                36.0,
-                -40.0,
+                36.00000000000001,
+                -40.00000000000001,
                 3.9999999999999947
             ],
             "p2": [
                 -36.0,
-                -40.0,
+                -40.00000000000001,
                 -0.0
             ],
             "type": "line_3d"
         },
         "81f03163-af1f-4c3e-a8d5-950e8e240156": {
             "center": [
-                -44.76,
+                -44.10000000000001,
                 43.5
             ],
             "construction": false,
@@ -6373,8 +6859,8 @@
         },
         "83ea587a-7f89-4023-97f6-9a2c5f2fed4b": {
             "center": [
-                20.72,
-                -7.700000000000005
+                20.720000000000006,
+                -7.700000000000004
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -6382,6 +6868,21 @@
             "radius": 1.625,
             "type": "circle_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
+        "8509eb3c-170c-4a1c-9905-636f7d250f1f": {
+            "construction": false,
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "name": "",
+            "p1": [
+                -8.059295177459706,
+                -57.721282958984375
+            ],
+            "p2": [
+                -8.059295177459706,
+                -42.721282958984375
+            ],
+            "type": "line_2d",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
         },
         "86a7a4e1-5ec1-47c4-87f5-12d390b6febb": {
             "construction": false,
@@ -6403,11 +6904,11 @@
             "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
             "name": "",
             "p1": [
-                40.00000000000001,
+                40.000000000000014,
                 35.99999999999999
             ],
             "p2": [
-                40.00000000000001,
+                40.000000000000014,
                 25.999999999999993
             ],
             "type": "line_2d",
@@ -6419,12 +6920,12 @@
             "name": "",
             "p1": [
                 -36.0,
-                -25.0,
+                -25.000000000000007,
                 4.0
             ],
             "p2": [
                 -36.0,
-                -40.0,
+                -40.00000000000001,
                 6.5000000000000036
             ],
             "type": "line_3d"
@@ -6434,7 +6935,7 @@
             "group": "c3e7a029-6ea8-472d-924d-9ebfe36860b0",
             "name": "",
             "p1": [
-                4.500000000000005,
+                4.500000000000004,
                 1.25
             ],
             "p2": [
@@ -6449,11 +6950,11 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -55.0,
+                -55.00000000000001,
                 55.0
             ],
             "p2": [
-                -7.0,
+                -7.000000000000006,
                 55.0
             ],
             "type": "line_2d",
@@ -6464,14 +6965,14 @@
             "group": "34b846b1-b3cb-4c31-ad5c-e4f145cbd8f2",
             "name": "",
             "normal": [
-                0.5000000000000001,
-                -0.5,
-                -0.4999999999999999,
-                0.5000000000000001
+                0.5,
+                -0.5000000000000001,
+                -0.49999999999999994,
+                0.5
             ],
             "origin": [
                 -36.0,
-                -32.5,
+                -32.50000000000001,
                 5.250000000000002
             ],
             "size": [
@@ -6482,7 +6983,7 @@
         },
         "91f7de05-5e7b-4181-be34-034040182baf": {
             "center": [
-                28.000000000000007,
+                28.000000000000014,
                 32.99999999999999
             ],
             "construction": false,
@@ -6502,7 +7003,7 @@
             ],
             "p2": [
                 -36.0,
-                -40.0
+                -40.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6521,6 +7022,18 @@
             ],
             "type": "line_2d",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
+        },
+        "9abd9560-20ae-4ef1-bb75-70dc3f6002be": {
+            "center": [
+                -46.0,
+                2.0
+            ],
+            "construction": false,
+            "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
+            "name": "",
+            "radius": 1.5,
+            "type": "circle_2d",
+            "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "9fa5f82a-888e-42c2-bb5c-de8d4cf949af": {
             "construction": false,
@@ -6542,19 +7055,19 @@
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
             "name": "",
             "p1": [
-                -11.18,
-                -3.6999999999999993
+                -11.179999999999996,
+                -3.7000000000000064
             ],
             "p2": [
-                -11.18,
-                -12.7
+                -11.179999999999996,
+                -12.700000000000006
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "a1b0b6e7-1b88-48f5-b9c8-5fc48527cdf1": {
             "center": [
-                1.5022397903578904e-30,
+                -1.7278540248082144e-29,
                 -13.15
             ],
             "construction": false,
@@ -6593,11 +7106,11 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "p1": [
-                36.0,
+                36.00000000000001,
                 -50.0
             ],
             "p2": [
-                50.00000000000001,
+                50.0,
                 -50.0
             ],
             "type": "line_2d",
@@ -6608,12 +7121,12 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "p1": [
-                36.00000000000001,
-                50.0
+                36.0,
+                50.00000000000001
             ],
             "p2": [
-                36.00000000000001,
-                40.0
+                36.0,
+                40.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6624,12 +7137,12 @@
             "name": "",
             "p1": [
                 -26.000000000000004,
-                -40.0,
+                -40.00000000000001,
                 4.0000000000000036
             ],
             "p2": [
                 -26.0,
-                -25.0,
+                -25.000000000000007,
                 6.5
             ],
             "type": "line_3d"
@@ -6658,12 +7171,12 @@
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
             "name": "",
             "p1": [
-                -11.18,
-                -12.7
+                -11.179999999999996,
+                -12.700000000000006
             ],
             "p2": [
-                25.72,
-                -12.7
+                25.720000000000006,
+                -12.700000000000006
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6674,7 +7187,7 @@
             "name": "",
             "p1": [
                 -60.0,
-                40.0
+                40.00000000000001
             ],
             "p2": [
                 -60.0,
@@ -6689,11 +7202,11 @@
             "name": "",
             "p1": [
                 -36.0,
-                -40.0
+                -40.00000000000001
             ],
             "p2": [
-                36.0,
-                -40.0
+                36.00000000000001,
+                -40.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6723,12 +7236,12 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "p1": [
-                60.00000000000001,
-                -40.0
+                60.0,
+                -40.00000000000001
             ],
             "p2": [
-                60.00000000000001,
-                40.0
+                60.0,
+                40.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6788,13 +7301,13 @@
             "group": "5242e1ac-2888-4496-bcbe-e990402c6be3",
             "name": "",
             "p1": [
-                24.72,
-                -2.6999999999999993,
+                24.720000000000006,
+                -2.7000000000000064,
                 -3.5
             ],
             "p2": [
-                -11.18,
-                -12.7,
+                -11.179999999999996,
+                -12.700000000000006,
                 -3.5
             ],
             "type": "line_3d"
@@ -6805,11 +7318,11 @@
             "name": "",
             "p1": [
                 -36.0,
-                50.0
+                50.00000000000001
             ],
             "p2": [
                 -50.0,
-                50.0
+                50.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6824,7 +7337,7 @@
                 3.9999999999999947
             ],
             "p2": [
-                36.0,
+                36.00000000000001,
                 -50.0,
                 3.9999999999999947
             ],
@@ -6835,15 +7348,35 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -26.0,
+                -26.000000000000007,
                 31.999999999999996
             ],
             "p2": [
-                -26.0,
+                -26.000000000000007,
                 1.9999999999999973
             ],
             "type": "line_2d",
             "wrkpl": "077e7831-83ca-4a88-a156-eb5b0b19df3f"
+        },
+        "c0fd2a1c-e850-4015-b54f-e8655b51d460": {
+            "anchors": {},
+            "construction": false,
+            "group": "1673324f-0011-4738-a8b4-e35998e25141",
+            "include_in_solid_model": false,
+            "name": "",
+            "normal": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "origin": [
+                1.7096200097218883,
+                -5.916205924942927,
+                16.78436506091359
+            ],
+            "path": "18650_cell.step",
+            "type": "step"
         },
         "c4a5c763-b40a-41eb-bcee-486af7e16ae7": {
             "construction": false,
@@ -6863,7 +7396,7 @@
         "c4b5a90f-ee6b-4900-97f7-d450a7341232": {
             "center": [
                 -33.0,
-                -28.0
+                -28.000000000000004
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -6877,12 +7410,12 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "p1": [
-                1.7763568394002418e-15,
-                40.0
+                -1.7763568394021627e-15,
+                40.00000000000001
             ],
             "p2": [
-                -1.776356839400241e-15,
-                -40.0
+                1.776356839405766e-15,
+                -40.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6930,20 +7463,20 @@
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "name": "",
             "p1": [
-                36.00000000000001,
-                40.0
+                36.0,
+                40.00000000000001
             ],
             "p2": [
                 -36.0,
-                40.0
+                40.00000000000001
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
         },
         "c9adf2e1-349e-41eb-b532-0d460e57a204": {
             "center": [
-                20.72,
-                -7.699999999999999
+                20.720000000000006,
+                -7.700000000000006
             ],
             "construction": false,
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
@@ -6951,6 +7484,47 @@
             "radius": 1.5,
             "type": "circle_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
+        "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358": {
+            "construction": false,
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "name": "",
+            "normal": [
+                0.7071067811865475,
+                0.7071067811865476,
+                0.0,
+                0.0
+            ],
+            "origin": [
+                -0.0,
+                -0.0,
+                -0.0
+            ],
+            "size": [
+                100.0,
+                100.0
+            ],
+            "type": "workplane"
+        },
+        "cd2b96d2-7dcf-4974-900a-d327ecf95905": {
+            "anchors": {},
+            "construction": false,
+            "group": "1673324f-0011-4738-a8b4-e35998e25141",
+            "include_in_solid_model": false,
+            "name": "",
+            "normal": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "origin": [
+                -21.40211551529905,
+                -6.3837781955474515,
+                12.21538121815734
+            ],
+            "path": "18650_cell.step",
+            "type": "step"
         },
         "cdb13302-102f-4fd7-b83d-9100baf99d05": {
             "construction": false,
@@ -6969,19 +7543,19 @@
         },
         "cdf221c1-68ed-40ab-9df2-8cfa61621f1d": {
             "center": [
-                -10.18,
-                -3.6999999999999993
+                -10.179999999999996,
+                -3.7000000000000064
             ],
             "construction": false,
             "from": [
-                -10.18,
-                -2.6999999999999993
+                -10.179999999999996,
+                -2.7000000000000064
             ],
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
             "name": "",
             "to": [
-                -11.18,
-                -3.6999999999999993
+                -11.179999999999996,
+                -3.7000000000000064
             ],
             "type": "arc_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -6991,20 +7565,35 @@
             "group": "46bbeddd-530b-4631-9842-585f34fee7f6",
             "name": "",
             "p1": [
-                -7.0,
-                -31.249999999999993,
+                -7.000000000000003,
+                -31.25,
                 33.999999999999986
             ],
             "p2": [
                 -55.0,
-                -31.249999999999986,
+                -31.249999999999993,
                 56.99999999999999
             ],
             "type": "line_3d"
         },
+        "cf6c50bd-2221-40c7-807a-ffd141a7efaf": {
+            "construction": false,
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "name": "",
+            "p1": [
+                -8.059295177459706,
+                -42.721282958984375
+            ],
+            "p2": [
+                6.940704822540295,
+                -42.721282958984375
+            ],
+            "type": "line_2d",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "d2cb07c2-886c-4326-9417-44beb0a8a633": {
             "center": [
-                -15.599999999999998,
+                -15.600000000000001,
                 -15.649999999999999
             ],
             "construction": false,
@@ -7016,7 +7605,7 @@
             "name": "",
             "to": [
                 -15.600000000000001,
-                -16.650000000000002
+                -16.65
             ],
             "type": "arc_2d",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
@@ -7030,7 +7619,7 @@
                 -1.9999999999999996
             ],
             "p2": [
-                50.00000000000001,
+                50.0,
                 -1.9999999999999996
             ],
             "type": "line_2d",
@@ -7038,8 +7627,8 @@
         },
         "d68041d2-1ab2-4af0-a748-74207239584c": {
             "center": [
-                -32.83985137939453,
-                35.69057846069336
+                -29.000000000000004,
+                28.000000000000004
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -7050,8 +7639,8 @@
         },
         "d9725b60-7841-4952-b49e-5d0c3ce2963b": {
             "center": [
-                7.27,
-                -7.699999999999999
+                7.270000000000007,
+                -7.700000000000006
             ],
             "construction": false,
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
@@ -7073,15 +7662,15 @@
             "include_in_solid_model": false,
             "name": "",
             "normal": [
-                0.7071067811865475,
-                0.0,
-                0.0,
-                0.7071067811865476
+                0.7071067811865476,
+                4.964277024652539e-30,
+                4.802142672919367e-17,
+                0.7071067811865475
             ],
             "origin": [
-                0.042699710512248856,
+                0.04269971051224783,
                 -66.6693936492124,
-                -11.876800582069592
+                -11.876800582069585
             ],
             "path": "Wheel D65x25.step",
             "type": "step"
@@ -7091,11 +7680,11 @@
             "group": "d67ff076-c225-4286-94d0-c2a4f0e3a140",
             "name": "",
             "p1": [
-                25.000000000000007,
+                25.000000000000014,
                 35.99999999999999
             ],
             "p2": [
-                40.00000000000001,
+                40.000000000000014,
                 35.99999999999999
             ],
             "type": "line_2d",
@@ -7103,8 +7692,8 @@
         },
         "df852b2b-5c04-43eb-8370-6b57223eeb83": {
             "center": [
-                -6.18,
-                -7.699999999999999
+                -6.179999999999996,
+                -7.700000000000006
             ],
             "construction": false,
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
@@ -7118,11 +7707,11 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -55.0,
+                -55.00000000000001,
                 31.999999999999996
             ],
             "p2": [
-                -55.0,
+                -55.00000000000001,
                 55.0
             ],
             "type": "line_2d",
@@ -7148,12 +7737,12 @@
             "group": "38a4fc7f-3e4d-41e8-abff-68991b2af339",
             "name": "",
             "p1": [
-                25.72,
-                -12.7
+                25.720000000000006,
+                -12.700000000000006
             ],
             "p2": [
-                25.72,
-                -3.6999999999999993
+                25.720000000000006,
+                -3.7000000000000064
             ],
             "type": "line_2d",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
@@ -7170,7 +7759,7 @@
             ],
             "origin": [
                 -26.0,
-                -32.5,
+                -32.50000000000001,
                 5.250000000000002
             ],
             "size": [
@@ -7203,21 +7792,21 @@
             "group": "138d94ee-2e6a-42a5-9041-d007d9bc2762",
             "name": "",
             "p1": [
-                25.72,
-                -12.7,
+                25.720000000000006,
+                -12.700000000000006,
                 -0.0
             ],
             "p2": [
-                25.72,
-                -3.6999999999999993,
+                25.720000000000006,
+                -3.7000000000000064,
                 -3.5
             ],
             "type": "line_3d"
         },
         "f77842cd-7d03-49ac-82fc-553f560195b0": {
             "center": [
-                20.720000000000006,
-                7.699999999999999
+                20.72,
+                7.700000000000005
             ],
             "construction": false,
             "group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
@@ -7250,7 +7839,7 @@
             ],
             "origin": [
                 -31.0,
-                -31.24999999999999,
+                -31.249999999999996,
                 45.499999999999986
             ],
             "size": [
@@ -7264,11 +7853,11 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -26.0,
+                -26.000000000000007,
                 31.999999999999996
             ],
             "p2": [
-                -7.0,
+                -7.000000000000006,
                 31.999999999999996
             ],
             "type": "line_2d",
@@ -7287,9 +7876,9 @@
                 0.7071067811865476
             ],
             "origin": [
-                -87.94342556608865,
-                -146.59415422446517,
-                6.429967511918122
+                -74.9855556814981,
+                -150.40186110107973,
+                7.842631578110868
             ],
             "path": "/home/lucas/Documents/Electrónica/Proyectos/GitHub/Proyectos-Educativos/Robotec/Labe/3d-models/labe-chassis-v1/mubi-bot-3.step",
             "type": "step"
@@ -7300,11 +7889,11 @@
             "name": "",
             "p1": [
                 -15.600000000000001,
-                -16.650000000000002
+                -16.65
             ],
             "p2": [
                 -12.179999999999998,
-                -16.650000000000002
+                -16.65
             ],
             "type": "line_2d",
             "wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea"
@@ -7314,12 +7903,12 @@
             "group": "34b846b1-b3cb-4c31-ad5c-e4f145cbd8f2",
             "name": "",
             "p1": [
-                1.2499999999999898,
+                1.249999999999999,
                 28.74999999999999
             ],
             "p2": [
-                1.2499999999999898,
-                1.2500000000000004
+                1.249999999999999,
+                1.2500000000000002
             ],
             "type": "line_2d",
             "wrkpl": "8f9eb257-b7ef-4766-ae49-0b051439e03f"
@@ -7348,15 +7937,30 @@
             "group": "faf373ca-d544-49fa-9efb-20514b941b79",
             "name": "",
             "p1": [
-                -31.0,
+                -31.000000000000007,
                 55.0
             ],
             "p2": [
-                -31.0,
+                -31.000000000000007,
                 1.9999999999999973
             ],
             "type": "line_2d",
             "wrkpl": "077e7831-83ca-4a88-a156-eb5b0b19df3f"
+        },
+        "ffdb953a-bf9b-4a66-a452-6e8a20fca2b8": {
+            "construction": false,
+            "group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "name": "",
+            "p1": [
+                6.940704822540295,
+                -57.721282958984375
+            ],
+            "p2": [
+                -8.059295177459706,
+                -57.721282958984375
+            ],
+            "type": "line_2d",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
         }
     },
     "groups": {
@@ -7366,8 +7970,8 @@
             "direction": "normal",
             "dvec": [
                 2.0000000000000013,
-                6.661338147750896e-16,
-                2.220446049250291e-16
+                -9.145827409536273e-283,
+                3.3306690738754716e-16
             ],
             "index": 33,
             "mode": "offset",
@@ -7383,11 +7987,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                -2.1477283910677554e-91,
-                0.0,
+                -1.5777218104420236e-30,
+                1.5777218104420236e-30,
                 -3.5
             ],
-            "index": 13,
+            "index": 16,
             "mode": "single",
             "name": "H_Extrude",
             "operation": "union",
@@ -7400,11 +8004,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                1.2602828650766501e-45,
+                6.941975965944904e-29,
                 23.799999982153462,
-                -5.284661593253018e-15
+                -5.2846615932517516e-15
             ],
-            "index": 9,
+            "index": 12,
             "mode": "offset",
             "name": "V_Extrude",
             "offset_mul": 1.147058824389539,
@@ -7416,8 +8020,31 @@
         "138d94ee-2e6a-42a5-9041-d007d9bc2762": {
             "active_wrkpl": "4447f429-320f-4000-9ffc-defb397ce151",
             "body": null,
-            "index": 16,
+            "index": 19,
             "name": "Rib",
+            "operation": "union",
+            "type": "sketch"
+        },
+        "1673324f-0011-4738-a8b4-e35998e25141": {
+            "active_wrkpl": "00000000-0000-0000-0000-000000000000",
+            "body": null,
+            "index": 6,
+            "name": "18650",
+            "operation": "union",
+            "type": "sketch"
+        },
+        "181d5a56-031b-4d5a-b006-a83a9cc9c8d5": {
+            "active_wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358",
+            "body": {
+                "color": {
+                    "b": 0.6745098233222961,
+                    "g": 0.2549019753932953,
+                    "r": 0.5686274766921997
+                },
+                "name": "Wheel"
+            },
+            "index": 9,
+            "name": "Crazy_Support",
             "operation": "union",
             "type": "sketch"
         },
@@ -7426,11 +8053,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                -25.4,
-                1.395279071873804e-31,
-                -5.639932965095795e-15
+                -25.400000000000002,
+                1.191774554278545e-27,
+                -5.639932965096019e-15
             ],
-            "index": 17,
+            "index": 20,
             "mode": "offset",
             "name": "R1_Extrude",
             "offset_mul": 1.0590551181102363,
@@ -7450,7 +8077,7 @@
         "38a4fc7f-3e4d-41e8-abff-68991b2af339": {
             "active_wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2",
             "body": null,
-            "index": 12,
+            "index": 15,
             "name": "Horizontal",
             "operation": "union",
             "type": "sketch"
@@ -7458,7 +8085,7 @@
         "46bbeddd-530b-4631-9842-585f34fee7f6": {
             "active_wrkpl": "f9050cbb-cb68-4255-a468-9489477bb678",
             "body": null,
-            "index": 24,
+            "index": 25,
             "name": "Posts",
             "operation": "union",
             "type": "sketch"
@@ -7468,11 +8095,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                0.0,
-                -7.670458539527698e-93,
+                -3.944304526105059e-31,
+                7.888609052206545e-31,
                 3.5635229418672276
             ],
-            "index": 15,
+            "index": 18,
             "mode": "single",
             "name": "BH_Extrude",
             "operation": "difference",
@@ -7483,7 +8110,7 @@
         "5242e1ac-2888-4496-bcbe-e990402c6be3": {
             "active_wrkpl": "68f259f6-e9fd-487b-9b73-01c7ce4a6602",
             "body": null,
-            "index": 14,
+            "index": 17,
             "name": "Bolt_Hole",
             "operation": "union",
             "type": "sketch"
@@ -7509,11 +8136,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                5.035916356167311e-46,
-                18.75,
-                -4.163336342344337e-15
+                6.293080149890949e-30,
+                18.749999999999993,
+                -4.163336342344335e-15
             ],
-            "index": 22,
+            "index": 23,
             "mode": "offset",
             "name": "SB_Extrude",
             "offset_mul": 0.8666666666666667,
@@ -7532,7 +8159,7 @@
                 },
                 "name": "Chassis"
             },
-            "index": 6,
+            "index": 7,
             "name": "Body",
             "operation": "union",
             "type": "sketch"
@@ -7543,10 +8170,10 @@
             "direction": "normal",
             "dvec": [
                 -10.0,
-                6.077163357286271e-63,
-                -2.220446049250313e-15
+                -2.8664811242629514e-29,
+                -2.2204460492503872e-15
             ],
-            "index": 18,
+            "index": 21,
             "mode": "offset",
             "name": "R2_Extrude",
             "offset_mul": 0.8499999999999999,
@@ -7566,28 +8193,10 @@
         "7fa996ff-78fc-41a2-bcf6-e12010762d98": {
             "active_wrkpl": "35fe6f51-38a4-46b2-b072-db67fc8a9dea",
             "body": null,
-            "index": 10,
+            "index": 13,
             "name": "Support_Hole",
             "operation": "union",
             "type": "sketch"
-        },
-        "82a46564-796c-433d-9c84-ca49adef4148": {
-            "active_wrkpl": "68f259f6-e9fd-487b-9b73-01c7ce4a6602",
-            "body": {
-                "color": {
-                    "b": 0.8470588326454163,
-                    "g": 0.4431372582912445,
-                    "r": 0.10980392247438431
-                },
-                "name": "Motor Right"
-            },
-            "include_source": false,
-            "index": 19,
-            "name": "Mirror horizontally 1",
-            "operation": "union",
-            "source_group": "6df70568-4520-4c1b-97d1-9d02a3ad2bfb",
-            "sources": "body",
-            "type": "mirror_horizontal"
         },
         "842e391e-cd6e-4d11-b1eb-7d8e122c0d34": {
             "active_wrkpl": "00000000-0000-0000-0000-000000000000",
@@ -7595,8 +8204,8 @@
             "direction": "normal",
             "dvec": [
                 -1.9999999999999996,
-                4.4408920985005936e-16,
-                8.694239816707257e-31
+                4.440892098500665e-16,
+                5.326778728156287e-31
             ],
             "index": 31,
             "mode": "offset",
@@ -7624,12 +8233,12 @@
                 200.0
             ],
             "yz_size": [
-                10.0,
-                10.0
+                150.0,
+                150.0
             ],
             "zx_size": [
-                10.0,
-                10.0
+                150.0,
+                150.0
             ]
         },
         "a3d8a36d-f296-4611-8f21-bd7fda19943c": {
@@ -7637,11 +8246,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                -4.717599898422819e-16,
-                4.999999999999997,
-                -6.0717771120761525e-15
+                -3.1554436208840472e-30,
+                3.500000000000001,
+                -1.5543122344752196e-15
             ],
-            "index": 25,
+            "index": 26,
             "mode": "single",
             "name": "P_Extrude",
             "operation": "union",
@@ -7654,11 +8263,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                3.0814879110195774e-32,
-                5.329070518200751e-16,
+                1.873331588760506e-30,
+                5.329070518200697e-16,
                 2.5
             ],
-            "index": 27,
+            "index": 28,
             "mode": "single",
             "name": "SS_Extrude",
             "operation": "union",
@@ -7675,13 +8284,24 @@
                 0.0,
                 3.9999999999999947
             ],
-            "index": 7,
+            "index": 8,
             "mode": "single",
             "name": "B_Extrude",
             "operation": "union",
             "source_group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
             "type": "extrude",
             "wrkpl": "e05bee81-0e40-586f-bb35-3c0ded98ffb2"
+        },
+        "b54aa33c-7077-4855-a638-00f8679e0f8e": {
+            "active_wrkpl": "00000000-0000-0000-0000-000000000000",
+            "body": {
+                "color": null,
+                "name": "Body"
+            },
+            "index": 34,
+            "name": "Sketch 1",
+            "operation": "union",
+            "type": "sketch"
         },
         "c3e7a029-6ea8-472d-924d-9ebfe36860b0": {
             "active_wrkpl": "ea362b53-38aa-4ad0-963d-20debcf18b72",
@@ -7699,10 +8319,27 @@
             "operation": "union",
             "type": "sketch"
         },
+        "d03dd484-b9cb-48ba-aa30-1fb151d78afc": {
+            "active_wrkpl": "00000000-0000-0000-0000-000000000000",
+            "body": null,
+            "direction": "normal",
+            "dvec": [
+                -2.524354896707238e-29,
+                6.310887241768095e-30,
+                -46.500429797569595
+            ],
+            "index": 10,
+            "mode": "single",
+            "name": "Extrude 1",
+            "operation": "union",
+            "source_group": "181d5a56-031b-4d5a-b006-a83a9cc9c8d5",
+            "type": "extrude",
+            "wrkpl": "ccae0d34-2a53-47e8-a9e9-5ceb8c84b358"
+        },
         "d67ff076-c225-4286-94d0-c2a4f0e3a140": {
             "active_wrkpl": "2f5025ed-38f8-4dee-a1ac-803d69a69eaf",
             "body": null,
-            "index": 26,
+            "index": 27,
             "name": "Sensor_Support",
             "operation": "union",
             "type": "sketch"
@@ -7717,7 +8354,7 @@
                 },
                 "name": "Motor Left"
             },
-            "index": 8,
+            "index": 11,
             "name": "Vertical",
             "operation": "union",
             "type": "sketch"
@@ -7733,7 +8370,7 @@
                 21,
                 25
             ],
-            "index": 23,
+            "index": 24,
             "name": "Fillet 1",
             "radius": 3.0,
             "type": "fillet"
@@ -7743,11 +8380,11 @@
             "body": null,
             "direction": "normal",
             "dvec": [
-                -7.008202891038544e-46,
-                14.946581777434218,
-                -3.3188078457500533e-15
+                -3.155443620884047e-29,
+                14.94658177743422,
+                -3.3188078457500584e-15
             ],
-            "index": 11,
+            "index": 14,
             "mode": "offset",
             "name": "SH_Extrude",
             "offset_mul": 1.6045704286848577,
@@ -7765,7 +8402,7 @@
                 149,
                 150
             ],
-            "index": 28,
+            "index": 29,
             "name": "Fillet 2",
             "radius": 2.0,
             "type": "fillet"
@@ -7788,7 +8425,7 @@
                 },
                 "name": "Sensor Left"
             },
-            "index": 21,
+            "index": 22,
             "name": "Sensor_Body",
             "operation": "union",
             "type": "sketch"
