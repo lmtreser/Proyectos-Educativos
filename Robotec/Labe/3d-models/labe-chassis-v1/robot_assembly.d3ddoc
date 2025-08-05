@@ -1,0 +1,60 @@
+{
+    "constraints": {},
+    "entities": {
+        "d45a4044-419e-4377-8812-60bf82129dd9": {
+            "construction": false,
+            "group": "40d0d741-e0a6-46cd-9e5e-624afee4bea6",
+            "name": "",
+            "normal": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "origin": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "path": "chassis.d3ddoc",
+            "type": "document"
+        }
+    },
+    "groups": {
+        "40d0d741-e0a6-46cd-9e5e-624afee4bea6": {
+            "active_wrkpl": "00000000-0000-0000-0000-000000000000",
+            "body": null,
+            "index": 1,
+            "name": "Robot Assembly",
+            "operation": "union",
+            "type": "sketch"
+        },
+        "a2e3740c-65df-4987-9b56-22eb68f623b4": {
+            "active_wrkpl": "00000000-0000-0000-0000-000000000000",
+            "body": {
+                "color": null,
+                "name": "Reference"
+            },
+            "index": 0,
+            "name": "Reference",
+            "show_xy": true,
+            "show_yz": true,
+            "show_zx": true,
+            "type": "reference",
+            "xy_size": [
+                200.0,
+                200.0
+            ],
+            "yz_size": [
+                150.0,
+                150.0
+            ],
+            "zx_size": [
+                150.0,
+                150.0
+            ]
+        }
+    },
+    "type": "document",
+    "version": 34
+}

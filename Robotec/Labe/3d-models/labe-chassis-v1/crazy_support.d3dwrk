@@ -1,0 +1,29 @@
+{
+    "workspace_views": {
+        "b0594116-b5a9-443c-82a9-906d32d9d280": {
+            "cam_distance": 275.56768798828125,
+            "cam_quat": [
+                0.1001976728439331,
+                -0.00825229287147522,
+                0.08551807701587677,
+                0.9912512302398682
+            ],
+            "center": [
+                53.064292907714844,
+                19.221357345581055,
+                0.0
+            ],
+            "curvature_comb_scale": 0.0,
+            "document": {
+                "body_views": {},
+                "current_group": "d03dd484-b9cb-48ba-aa30-1fb151d78afc",
+                "entity_views": {},
+                "group_views": {},
+                "hide_irrelevant_workplanes": false,
+                "show_construction_entities_from_previous_groups": false
+            },
+            "name": "",
+            "projection": "ortho"
+        }
+    }
+}

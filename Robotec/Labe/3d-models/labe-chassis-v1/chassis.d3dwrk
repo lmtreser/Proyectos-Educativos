@@ -1,7 +1,7 @@
 {
     "workspace_views": {
         "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 272.7809143066406,
+            "cam_distance": 527.1846923828125,
             "cam_quat": [
                 0.0,
                 0.0,
@@ -9,9 +9,9 @@
                 1.0
             ],
             "center": [
-                -4.4354237616062164e-06,
-                -1.7962884157896042e-07,
-                -7.310882210731506e-08
+                -0.0035677067935466766,
+                -3.834720700979233e-07,
+                -0.000987697159871459
             ],
             "curvature_comb_scale": 0.0,
             "document": {
@@ -108,7 +108,7 @@
                         "visible": true
                     },
                     "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf": {
-                        "visible": false
+                        "visible": true
                     },
                     "57bc874c-a697-430b-b8cb-07280bd9cac2": {
                         "visible": true

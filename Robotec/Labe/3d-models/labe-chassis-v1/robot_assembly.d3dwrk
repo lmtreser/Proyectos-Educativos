@@ -1,0 +1,29 @@
+{
+    "workspace_views": {
+        "d36e6288-5b1a-494b-a4e3-dcfe6cbed863": {
+            "cam_distance": 81.64971923828125,
+            "cam_quat": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "center": [
+                1.9202661514282227,
+                2.6223182678222656,
+                0.0
+            ],
+            "curvature_comb_scale": 0.0,
+            "document": {
+                "body_views": {},
+                "current_group": "40d0d741-e0a6-46cd-9e5e-624afee4bea6",
+                "entity_views": {},
+                "group_views": {},
+                "hide_irrelevant_workplanes": false,
+                "show_construction_entities_from_previous_groups": false
+            },
+            "name": "",
+            "projection": "ortho"
+        }
+    }
+}
