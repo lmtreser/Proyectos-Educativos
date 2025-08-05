@@ -1,17 +1,17 @@
 {
     "workspace_views": {
         "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 35.51530838012695,
+            "cam_distance": 272.7809143066406,
             "cam_quat": [
-                0.7071068286895752,
                 0.0,
                 0.0,
-                0.7071068286895752
+                0.0,
+                1.0
             ],
             "center": [
-                -32.742698669433594,
-                -50.0,
-                41.640567779541016
+                -4.4354237616062164e-06,
+                -1.7962884157896042e-07,
+                -7.310882210731506e-08
             ],
             "curvature_comb_scale": 0.0,
             "document": {
@@ -20,6 +20,11 @@
                         "expanded": true,
                         "solid_model_visible": true,
                         "visible": true
+                    },
+                    "181d5a56-031b-4d5a-b006-a83a9cc9c8d5": {
+                        "expanded": true,
+                        "solid_model_visible": true,
+                        "visible": false
                     },
                     "5d4c7057-c9bc-42f3-bed3-d9dc164d01ba": {
                         "expanded": true,
@@ -54,7 +59,7 @@
                     "d81ec191-7aad-4c20-a7e9-7bfb004875ee": {
                         "expanded": true,
                         "solid_model_visible": true,
-                        "visible": true
+                        "visible": false
                     },
                     "d8a5e67a-b6ef-4f2c-a4c9-ea9f679faeac": {
                         "expanded": true,
@@ -72,7 +77,7 @@
                         "visible": true
                     }
                 },
-                "current_group": "faf373ca-d544-49fa-9efb-20514b941b79",
+                "current_group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
                 "entity_views": {},
                 "group_views": {
                     "0a8cfeed-bb21-4874-a2df-1f0c81dd9a50": {
@@ -153,6 +158,9 @@
                     "ceeb953b-f495-46b8-bac6-81b3c670e906": {
                         "visible": false
                     },
+                    "d03dd484-b9cb-48ba-aa30-1fb151d78afc": {
+                        "visible": false
+                    },
                     "d67ff076-c225-4286-94d0-c2a4f0e3a140": {
                         "visible": true
                     },
@@ -166,7 +174,7 @@
                         "visible": true
                     },
                     "faed68bf-2562-44df-8b43-c9bf6d334afb": {
-                        "visible": true
+                        "visible": false
                     },
                     "faf373ca-d544-49fa-9efb-20514b941b79": {
                         "visible": true
