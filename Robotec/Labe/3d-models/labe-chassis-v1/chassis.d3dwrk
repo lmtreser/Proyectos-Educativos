@@ -1,7 +1,7 @@
 {
     "workspace_views": {
-        "8e1199be-46cf-41de-a957-cfcc7a9b6b96": {
-            "cam_distance": 527.1846923828125,
+        "ed30bfd8-15e8-4270-8fa4-5284a0ad1721": {
+            "cam_distance": 46.75687789916992,
             "cam_quat": [
                 0.0,
                 0.0,
@@ -9,70 +9,15 @@
                 1.0
             ],
             "center": [
-                -0.0035677067935466766,
-                -3.834720700979233e-07,
-                -0.000987697159871459
+                -18.438594818115234,
+                28.379638671875,
+                1.997174695134163e-05
             ],
             "curvature_comb_scale": 0.0,
             "document": {
                 "body_views": {
-                    "0c34177c-7cb9-4271-bfad-1032b3dfa14c": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
-                    "181d5a56-031b-4d5a-b006-a83a9cc9c8d5": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": false
-                    },
-                    "5d4c7057-c9bc-42f3-bed3-d9dc164d01ba": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
-                    "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
-                    "6c9f2e0f-daad-438a-b135-fd7275f9578a": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
-                    "82a46564-796c-433d-9c84-ca49adef4148": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": false
-                    },
-                    "925d27f9-befa-4f82-b689-0bbd801ab8fa": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
-                    "a2e3740c-65df-4987-9b56-22eb68f623b4": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
-                    "d81ec191-7aad-4c20-a7e9-7bfb004875ee": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": false
-                    },
-                    "d8a5e67a-b6ef-4f2c-a4c9-ea9f679faeac": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
-                    "e163d216-d43b-4085-9403-04e44bc70c0e": {
-                        "expanded": true,
-                        "solid_model_visible": true,
-                        "visible": true
-                    },
                     "faf373ca-d544-49fa-9efb-20514b941b79": {
-                        "expanded": true,
+                        "expanded": false,
                         "solid_model_visible": true,
                         "visible": true
                     }
@@ -80,107 +25,11 @@
                 "current_group": "6a29dc77-4cd4-4d82-9264-89f61c624cbf",
                 "entity_views": {},
                 "group_views": {
-                    "0a8cfeed-bb21-4874-a2df-1f0c81dd9a50": {
-                        "visible": true
-                    },
-                    "124916d2-fe8c-40e1-8ca3-7caec0d2ebfc": {
-                        "visible": true
-                    },
-                    "138d94ee-2e6a-42a5-9041-d007d9bc2762": {
-                        "visible": true
-                    },
-                    "1673324f-0011-4738-a8b4-e35998e25141": {
-                        "visible": false
-                    },
-                    "1cfa0a0a-187c-4501-bcb2-3d4c2cf654b5": {
-                        "visible": true
-                    },
-                    "38a4fc7f-3e4d-41e8-abff-68991b2af339": {
-                        "visible": true
-                    },
-                    "46bbeddd-530b-4631-9842-585f34fee7f6": {
-                        "visible": false
-                    },
-                    "51f109d2-6786-4fe9-935f-f2ad4187c807": {
-                        "visible": true
-                    },
-                    "5242e1ac-2888-4496-bcbe-e990402c6be3": {
-                        "visible": true
-                    },
                     "54da8fbb-3f15-4a28-bb7e-ba59290a0dbf": {
-                        "visible": true
-                    },
-                    "57bc874c-a697-430b-b8cb-07280bd9cac2": {
-                        "visible": true
-                    },
-                    "6317c98c-43bd-4433-8c4f-9f11d39ea622": {
-                        "visible": true
-                    },
-                    "68904349-0ef6-42bb-9877-501f855c05a1": {
                         "visible": false
-                    },
-                    "6a29dc77-4cd4-4d82-9264-89f61c624cbf": {
-                        "visible": true
-                    },
-                    "6df70568-4520-4c1b-97d1-9d02a3ad2bfb": {
-                        "visible": true
-                    },
-                    "7259639e-4541-4a43-b7dd-5248464675ae": {
-                        "visible": false
-                    },
-                    "7c45f56e-71b0-428a-88cf-a1c2d1d61631": {
-                        "visible": false
-                    },
-                    "7fa996ff-78fc-41a2-bcf6-e12010762d98": {
-                        "visible": true
-                    },
-                    "82a46564-796c-433d-9c84-ca49adef4148": {
-                        "visible": false
-                    },
-                    "91899099-000d-4f53-a31b-7f22208865d8": {
-                        "visible": false
-                    },
-                    "a2e3740c-65df-4987-9b56-22eb68f623b4": {
-                        "visible": true
-                    },
-                    "a3d8a36d-f296-4611-8f21-bd7fda19943c": {
-                        "visible": false
-                    },
-                    "a90abbf6-d379-40b4-a358-86076334b16c": {
-                        "visible": true
-                    },
-                    "ad06be00-8bb6-41bb-b178-85af9e2700cf": {
-                        "visible": true
-                    },
-                    "c3e7a029-6ea8-472d-924d-9ebfe36860b0": {
-                        "visible": true
-                    },
-                    "ceeb953b-f495-46b8-bac6-81b3c670e906": {
-                        "visible": false
-                    },
-                    "d03dd484-b9cb-48ba-aa30-1fb151d78afc": {
-                        "visible": false
-                    },
-                    "d67ff076-c225-4286-94d0-c2a4f0e3a140": {
-                        "visible": true
-                    },
-                    "d81ec191-7aad-4c20-a7e9-7bfb004875ee": {
-                        "visible": true
-                    },
-                    "e0d20796-b0b7-4863-a4cf-043e523a1ed0": {
-                        "visible": false
-                    },
-                    "eca3dc13-5c6b-4dcd-9616-462429125835": {
-                        "visible": true
-                    },
-                    "faed68bf-2562-44df-8b43-c9bf6d334afb": {
-                        "visible": false
-                    },
-                    "faf373ca-d544-49fa-9efb-20514b941b79": {
-                        "visible": true
                     }
                 },
-                "hide_irrelevant_workplanes": true,
+                "hide_irrelevant_workplanes": false,
                 "show_construction_entities_from_previous_groups": false
             },
             "name": "",
