@@ -1,0 +1,799 @@
+[
+    {
+        "id": "21df9cdeb5310720",
+        "type": "tab",
+        "label": "Automáta",
+        "disabled": false,
+        "info": "Interface del Automáta Didáctico",
+        "env": []
+    },
+    {
+        "id": "365c325d82a3fa6c",
+        "type": "ui_switch",
+        "z": "21df9cdeb5310720",
+        "name": "OUTPUT 1",
+        "label": "RELAY 1",
+        "tooltip": "",
+        "group": "fb8a4eca9c8227ac",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "d8f7334003f51975"
+            ]
+        ]
+    },
+    {
+        "id": "0348c64c981a80f2",
+        "type": "ui_switch",
+        "z": "21df9cdeb5310720",
+        "name": "OUTPUT 2",
+        "label": "RELAY 2",
+        "tooltip": "",
+        "group": "fb8a4eca9c8227ac",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "27f0d08c4c886875"
+            ]
+        ]
+    },
+    {
+        "id": "c4a794c7856c044f",
+        "type": "ui_led",
+        "z": "21df9cdeb5310720",
+        "order": 0,
+        "group": "93ab707e5e264ad6",
+        "width": "4",
+        "height": "2",
+        "label": "INPUT 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#dcd6d6",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED IN1",
+        "x": 540,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b705bdfd58f55172",
+        "type": "ui_text",
+        "z": "21df9cdeb5310720",
+        "group": "5088ac3fa9d022f0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Modbus Read",
+        "label": "FC2 Read Inputs",
+        "format": "{{msg.payload[0]}}, {{msg.payload[1]}}, {{msg.payload[2]}}, {{msg.payload[3]}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 560,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e09a8db3419b398d",
+        "type": "ui_text",
+        "z": "21df9cdeb5310720",
+        "group": "5088ac3fa9d022f0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Modbus Write",
+        "label": "FC5 Force Single Coil 0",
+        "format": "{{msg.payload.value}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 560,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "08c12cb3f53c5438",
+        "type": "debug",
+        "z": "21df9cdeb5310720",
+        "name": "debug_modbus",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "ef193133ecc0319c",
+        "type": "modbus-read",
+        "z": "21df9cdeb5310720",
+        "name": "Modbus Read Inputs",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "2",
+        "dataType": "Input",
+        "adr": "0",
+        "quantity": "4",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "a289e38f1eb05b85",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "c86c3b65de9c2693",
+                "07832cc1684f701d",
+                "a183e31fb35e2c0e",
+                "6606c5a216cba3f7",
+                "b705bdfd58f55172",
+                "c15ad15bc12e32d9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b56ffc70fe6a9b8b",
+        "type": "ui_led",
+        "z": "21df9cdeb5310720",
+        "order": 0,
+        "group": "93ab707e5e264ad6",
+        "width": "4",
+        "height": "2",
+        "label": "INPUT 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#dcd6d6",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED IN2",
+        "x": 540,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7288d6dd4e895130",
+        "type": "ui_led",
+        "z": "21df9cdeb5310720",
+        "order": 0,
+        "group": "93ab707e5e264ad6",
+        "width": "4",
+        "height": "2",
+        "label": "INPUT 3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#dcd6d6",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED IN3",
+        "x": 540,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "963d631f82385bd0",
+        "type": "ui_led",
+        "z": "21df9cdeb5310720",
+        "order": 0,
+        "group": "93ab707e5e264ad6",
+        "width": "4",
+        "height": "2",
+        "label": "INPUT 4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#dcd6d6",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED IN4",
+        "x": 540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c86c3b65de9c2693",
+        "type": "function",
+        "z": "21df9cdeb5310720",
+        "name": "data[0]",
+        "func": "// Recupera el bit correspondiente al INPUT 1\n// Lo niega, ya que las entradas son PULL_UP\nmsg.payload = !msg.payload[0];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "c4a794c7856c044f"
+            ]
+        ]
+    },
+    {
+        "id": "07832cc1684f701d",
+        "type": "function",
+        "z": "21df9cdeb5310720",
+        "name": "data[1]",
+        "func": "// Recupera el bit correspondiente al INPUT 2\n// Lo niega, ya que las entradas son PULL_UP\nmsg.payload = !msg.payload[1];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "b56ffc70fe6a9b8b"
+            ]
+        ]
+    },
+    {
+        "id": "a183e31fb35e2c0e",
+        "type": "function",
+        "z": "21df9cdeb5310720",
+        "name": "data[2]",
+        "func": "// Recupera el bit correspondiente al INPUT 3\n// Lo niega, ya que las entradas son PULL_UP\nmsg.payload = !msg.payload[2];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "7288d6dd4e895130"
+            ]
+        ]
+    },
+    {
+        "id": "6606c5a216cba3f7",
+        "type": "function",
+        "z": "21df9cdeb5310720",
+        "name": "data[3]",
+        "func": "// Recupera el bit correspondiente al INPUT 4\n// Lo niega, ya que las entradas son PULL_UP\nmsg.payload = !msg.payload[3];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "963d631f82385bd0"
+            ]
+        ]
+    },
+    {
+        "id": "d8f7334003f51975",
+        "type": "modbus-write",
+        "z": "21df9cdeb5310720",
+        "name": "Modbus Write",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "2",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "server": "a289e38f1eb05b85",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 340,
+        "y": 540,
+        "wires": [
+            [
+                "1182bf0b03c7f249",
+                "e09a8db3419b398d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7a30505d47e888e8",
+        "type": "link in",
+        "z": "21df9cdeb5310720",
+        "name": "debug modbus",
+        "links": [
+            "c15ad15bc12e32d9",
+            "1182bf0b03c7f249",
+            "bf3efc3094135a36"
+        ],
+        "x": 445,
+        "y": 680,
+        "wires": [
+            [
+                "08c12cb3f53c5438"
+            ]
+        ]
+    },
+    {
+        "id": "c15ad15bc12e32d9",
+        "type": "link out",
+        "z": "21df9cdeb5310720",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "7a30505d47e888e8"
+        ],
+        "x": 315,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1182bf0b03c7f249",
+        "type": "link out",
+        "z": "21df9cdeb5310720",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "7a30505d47e888e8"
+        ],
+        "x": 495,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "27f0d08c4c886875",
+        "type": "modbus-write",
+        "z": "21df9cdeb5310720",
+        "name": "Modbus Write",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "2",
+        "dataType": "Coil",
+        "adr": "1",
+        "quantity": "1",
+        "server": "a289e38f1eb05b85",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 340,
+        "y": 600,
+        "wires": [
+            [
+                "1182bf0b03c7f249",
+                "141e337d02ae121f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "141e337d02ae121f",
+        "type": "ui_text",
+        "z": "21df9cdeb5310720",
+        "group": "5088ac3fa9d022f0",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Modbus Write",
+        "label": "FC5 Force Single Coil 1",
+        "format": "{{msg.payload.value}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 560,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "6dcc5e164f8a5890",
+        "type": "ui_led",
+        "z": "21df9cdeb5310720",
+        "order": 3,
+        "group": "fb8a4eca9c8227ac",
+        "width": "6",
+        "height": "2",
+        "label": "RELAY 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#dcd6d6",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED OUT1",
+        "x": 550,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "81ccba8abc3ab46f",
+        "type": "modbus-read",
+        "z": "21df9cdeb5310720",
+        "name": "Modbus Read Coils",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "2",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "a289e38f1eb05b85",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "bf3efc3094135a36",
+                "ed327f644a821257",
+                "d405241329103fa4",
+                "f7fee0a5d22340a4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bf3efc3094135a36",
+        "type": "link out",
+        "z": "21df9cdeb5310720",
+        "name": "link out 7",
+        "mode": "link",
+        "links": [
+            "7a30505d47e888e8"
+        ],
+        "x": 315,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ed327f644a821257",
+        "type": "ui_text",
+        "z": "21df9cdeb5310720",
+        "group": "5088ac3fa9d022f0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Modbus Read",
+        "label": "FC1 Read Coils",
+        "format": "{{msg.payload[0]}}, {{msg.payload[1]}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 560,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d405241329103fa4",
+        "type": "function",
+        "z": "21df9cdeb5310720",
+        "name": "data[0]",
+        "func": "// Recupera el bit correspondiente al OUTPUT 1\nmsg.payload = msg.payload[0];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 400,
+        "wires": [
+            [
+                "6dcc5e164f8a5890",
+                "6d246cbc8824399f"
+            ]
+        ]
+    },
+    {
+        "id": "fced0f479db8eaf9",
+        "type": "ui_led",
+        "z": "21df9cdeb5310720",
+        "order": 3,
+        "group": "fb8a4eca9c8227ac",
+        "width": "6",
+        "height": "2",
+        "label": "RELAY 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#dcd6d6",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED OUT2",
+        "x": 550,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f7fee0a5d22340a4",
+        "type": "function",
+        "z": "21df9cdeb5310720",
+        "name": "data[1]",
+        "func": "// Recupera el bit correspondiente al OUTPUT 2\nmsg.payload = msg.payload[1];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 440,
+        "wires": [
+            [
+                "fced0f479db8eaf9",
+                "ee493e67043aaf2c"
+            ]
+        ]
+    },
+    {
+        "id": "3ec78484a46eba3e",
+        "type": "link in",
+        "z": "21df9cdeb5310720",
+        "name": "out 1",
+        "links": [
+            "6d246cbc8824399f"
+        ],
+        "x": 55,
+        "y": 480,
+        "wires": [
+            [
+                "365c325d82a3fa6c"
+            ]
+        ]
+    },
+    {
+        "id": "0d46558585dcd90c",
+        "type": "link in",
+        "z": "21df9cdeb5310720",
+        "name": "out 2",
+        "links": [
+            "ee493e67043aaf2c"
+        ],
+        "x": 55,
+        "y": 660,
+        "wires": [
+            [
+                "0348c64c981a80f2"
+            ]
+        ]
+    },
+    {
+        "id": "ee493e67043aaf2c",
+        "type": "link out",
+        "z": "21df9cdeb5310720",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "0d46558585dcd90c"
+        ],
+        "x": 495,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "6d246cbc8824399f",
+        "type": "link out",
+        "z": "21df9cdeb5310720",
+        "name": "link out 9",
+        "mode": "link",
+        "links": [
+            "3ec78484a46eba3e"
+        ],
+        "x": 495,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fb8a4eca9c8227ac",
+        "type": "ui_group",
+        "name": "Relay Outputs",
+        "tab": "7ab3a55866396028",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "93ab707e5e264ad6",
+        "type": "ui_group",
+        "name": "Digital Inputs",
+        "tab": "7ab3a55866396028",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5088ac3fa9d022f0",
+        "type": "ui_group",
+        "name": "Modbus Communication",
+        "tab": "7ab3a55866396028",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a289e38f1eb05b85",
+        "type": "modbus-client",
+        "name": "TI-485 Server",
+        "clienttype": "simpleser",
+        "bufferCommands": true,
+        "stateLogEnabled": true,
+        "queueLogEnabled": true,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB0",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "5000",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "7ab3a55866396028",
+        "type": "ui_tab",
+        "name": "Nano Automata",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
