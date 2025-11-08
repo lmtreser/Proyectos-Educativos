@@ -1,0 +1,61 @@
+<circuit version="2.0.0-" rev="250808" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="Nano-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-44,-136" rotation="0" hflip="-1" vflip="1" label="Arduino Nano" idLabPos="0.438744,-16.3685" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="m328 TQFP-269" Frequency="16 MHz" ForceFreq="true" savePGM="false" Program="build/arduino.avr.nano/modbus.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="1" />
+</item>
+
+<item itemtype="LedBar" CircId="LedBar-2" mainComp="false" Show_id="false" Show_Val="false" Pos="32,-96" rotation="0" hflip="1" vflip="1" label="OUTPUTS" idLabPos="-12.6804,-46.6283" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Blue" Size="3 _Leds" Grounded="true" Threshold="3.6 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="60,80" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-8" mainComp="false" Show_id="true" Show_Val="false" Pos="32,-72" rotation="0" hflip="1" vflip="1" label="INPUT_1" idLabPos="34.8942,-9.52147" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Push" CircId="Push-9" mainComp="false" Show_id="true" Show_Val="false" Pos="32,-36" rotation="0" hflip="1" vflip="1" label="INPUT_2" idLabPos="35.333,-9.08273" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Push" CircId="Push-10" mainComp="false" Show_id="true" Show_Val="false" Pos="32,36" rotation="0" hflip="1" vflip="1" label="INPUT_4" idLabPos="35.333,-9.96021" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Push" CircId="Push-11" mainComp="false" Show_id="true" Show_Val="false" Pos="32,0" rotation="0" hflip="1" vflip="1" label="INPUT_3" idLabPos="36.2105,-8.64398" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="SerialTerm" CircId="SerialTerm-15" mainComp="false" Show_id="true" Show_Val="false" Pos="-100,52" rotation="0" hflip="-1" vflip="1" label="MODBUS" idLabPos="15.0995,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="true" />
+
+<item itemtype="TextComponent" CircId="TextComponent-16" mainComp="false" Show_id="false" Show_Val="false" Pos="44,-128" rotation="0" hflip="1" vflip="1" label="TextComponent-16" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="0 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="7 _px" Fixed_Width="false" Text="OUTPUT_1&#xa;OUTPUT_2&#xa;DE/RE" />
+
+<item itemtype="Node" CircId="Node-12" mainComp="false" Pos="60,-36" />
+
+<item itemtype="Node" CircId="Node-13" mainComp="false" Pos="60,0" />
+
+<item itemtype="Node" CircId="Node-14" mainComp="false" Pos="60,36" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="Push-8-pinP0" endpinid="Nano-1-4" pointList="16,-72,-52,-72" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="Nano-1-5" endpinid="Push-9-pinP0" pointList="-52,-64,12,-64,12,-36,16,-36" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Nano-1-6" endpinid="Push-11-pinP0" pointList="-52,-56,4,-56,4,0,16,0" />
+
+<item itemtype="Connector" uid="Connector-45" startpinid="Nano-1-7" endpinid="Push-10-pinP0" pointList="-52,-48,-4,-48,-4,36,16,36" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Push-9-switch0pinN" endpinid="Node-12-1" pointList="48,-36,60,-36" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="Push-8-switch0pinN" endpinid="Node-12-0" pointList="48,-72,60,-72,60,-36" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Push-11-switch0pinN" endpinid="Node-13-1" pointList="48,0,60,0" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Node-12-2" endpinid="Node-13-0" pointList="60,-36,60,0" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Push-10-switch0pinN" endpinid="Node-14-1" pointList="48,36,60,36" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="Node-13-2" endpinid="Node-14-0" pointList="60,0,60,36" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Node-14-2" endpinid="Ground-7-Gnd" pointList="60,36,60,64" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="LedBar-2-led2-pinP" endpinid="Nano-1-11" pointList="16,-104,-12,-104,-12,-16,-52,-16" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="LedBar-2-led1-pinP" endpinid="Nano-1-3" pointList="16,-112,-20,-112,-20,-80,-52,-80" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="LedBar-2-led0-pinP" endpinid="Nano-1-2" pointList="16,-120,-28,-120,-28,-88,-52,-88" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="SerialTerm-15-pin0" endpinid="Nano-1-12" pointList="-76,44,-36,44,-36,-8,-52,-8" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="SerialTerm-15-pin1" endpinid="Nano-1-10" pointList="-76,60,-28,60,-28,-24,-52,-24" />
+
+</circuit>
