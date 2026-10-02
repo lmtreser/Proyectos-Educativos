@@ -78962,8 +78962,8 @@ M73 P100 R0
 ; nozzle_flush_dataset = 0
 ; nozzle_height = 2.5
 ; nozzle_hrc = 0
-; nozzle_temperature = 220
-; nozzle_temperature_initial_layer = 220
+; nozzle_temperature = 200
+; nozzle_temperature_initial_layer = 205
 ; nozzle_temperature_range_high = 230
 ; nozzle_temperature_range_low = 190
 ; nozzle_type = undefine
